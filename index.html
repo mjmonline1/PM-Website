@@ -56,6 +56,24 @@
     <input type="email" name="email" placeholder="Enter your email" required>
     <button type="submit">Subscribe</button>
   </form>
-
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const form = document.querySelector('form');
+      form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Stop normal submission
+        const data = new FormData(form);
+    
+        fetch('/', {
+          method: 'POST',
+          body: data
+        }).then(() => {
+          form.style.display = 'none'; // Hide form
+          document.getElementById('thanks-message').style.display = 'block'; // Show Thank you
+        }).catch((error) => {
+          alert('Oops! Something went wrong.');
+        });
+      });
+    });
+    </script>
 </body>
 </html>
