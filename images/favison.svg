@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <defs>
+      <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#ff6600;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#ff3399;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+  
+    <!-- Background with gradient -->
+    <rect width="100" height="100" rx="20" ry="20" fill="url(#grad)"/>
+  
+    <!-- Smaller Stars -->
+    <polygon points="20,10 21,13 25,13 22,16 23,20 20,18 17,20 18,16 15,13 19,13" fill="yellow"/>
+    <polygon points="88,12 89,15 93,15 90,18 91,22 88,20 85,22 86,18 83,15 87,15" fill="white"/>
+    <polygon points="70,78 71,81 75,81 72,84 73,88 70,86 67,88 68,84 65,81 69,81" fill="#66ccff"/>
+    <polygon points="30,70 31,73 35,73 32,76 33,80 30,78 27,80 28,76 25,73 29,73" fill="#ffccff"/>
+  
+    <!-- Bigger P and M letters -->
+    <text x="40%" y="57%" text-anchor="middle" font-size="44" fill="#ffff66" font-family="Fredoka One, sans-serif" font-weight="bold" transform="rotate(-15 40 50)">P</text>
+    <text x="60%" y="62%" text-anchor="middle" font-size="44" fill="#66ccff" font-family="Fredoka One, sans-serif" font-weight="bold" transform="rotate(15 60 50)">M</text>
+  </svg>
+  
