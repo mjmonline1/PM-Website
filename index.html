@@ -8,7 +8,7 @@
       margin: 0;
       padding: 0;
       height: 100vh;
-      background: url('SD-7772.png') no-repeat center center fixed;
+      background: url('images/SD-7772.png') no-repeat center center fixed;
       background-size: cover;
       display: flex;
       flex-direction: column;
@@ -19,12 +19,22 @@
       color: white;
       backdrop-filter: brightness(0.8); /* slightly darken bg for better contrast */
     }
+
+    .content-box {
+      background-color: rgba(0, 0, 0, 0.6); /* semi-transparent black */
+      padding: 40px;
+      border-radius: 15px;
+      text-align: center;
+      color: white;
+      max-width: 700px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
     h1, h2, p {
       margin: 10px 20px;
       max-width: 600px;
     }
     .form-container {
-      background: rgba(255, 255, 255, 0.85); /* semi-transparent white */
+      background: rgba(255, 255, 255, 0.45); /* semi-transparent white */
       padding: 30px;
       border-radius: 15px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -61,6 +71,21 @@
     button:hover {
       background-color: #ff8533;
     }
+
+    @media (max-width: 600px) {
+      .content-box {
+        padding: 20px;
+      }
+
+      input[type="email"] {
+        width: 100%;
+        margin: 10px 0;
+      }
+
+      button {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -85,10 +110,7 @@
         <label>Your Email:</label>
         <input type="email" name="email" required />
       </p>
-      <p>
-        <label>Message:</label>
-        <textarea name="message" rows="4"></textarea>
-      </p>
+   
       <p>
         <button type="submit">Subscribe</button>
       </p>
