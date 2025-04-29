@@ -52,49 +52,22 @@
   <h1>Coming Soon: The Puzzle Monsters Website</h1>
   <h2>At Puzzle Monsters, we handcraft engaging Puzzle Books that promise endless fun and adventure. Explore our collection and uncover the magic within each page.</h2>
   <p>Join our community of puzzle enthusiasts and never miss out on the latest releases, exclusive offers, and more!</p>
-  <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="newsletter-form">
-    <input type="hidden" name="form-name" value="newsletter" />
   
-    <p hidden>
-      <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+  <form name="contact" method="POST" data-netlify="true">
+    <p>
+      <label>Your Name: <input type="text" name="name" /></label>
     </p>
-  
-    <input type="email" name="email" placeholder="Enter your email" required />
-    <button type="submit">Subscribe</button>
-  
-    <div id="thanks-message" style="display:none; margin-top:20px; color:lightgreen;">
-      🎉 Thank you for subscribing!
-    </div>
+    <p>
+      <label>Your Email: <input type="email" name="email" /></label>
+    </p>
+      <p>
+      <label>Message: <textarea name="message"></textarea></label>
+    </p>
+    <p>
+      <button type="submit">Subscribe</button>
+    </p>
   </form>
-  
-  <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const form = document.getElementById('newsletter-form');
-    const thanksMessage = document.getElementById('thanks-message');
-  
-    form.addEventListener('submit', function(event) {
-      event.preventDefault(); // Stop the browser from doing normal form submit
-  
-      const formData = new FormData(form);
-  
-      fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(formData).toString()
-      })
-      .then(() => {
-        form.style.display = 'none';
-        thanksMessage.style.display = 'block';
-      })
-      .catch((error) => {
-        console.error('Form submission error:', error);
-        alert('Oops! Something went wrong.');
-      });
-    });
-  });
-  </script>
-  
-  
+   
   
 </body>
 </html>
