@@ -52,28 +52,40 @@
   <h1>Coming Soon: The Puzzle Monsters Website</h1>
   <h2>At Puzzle Monsters, we handcraft engaging Puzzle Books that promise endless fun and adventure. Explore our collection and uncover the magic within each page.</h2>
   <p>Join our community of puzzle enthusiasts and never miss out on the latest releases, exclusive offers, and more!</p>
-  <form form name="contact" netlify>
-    <input type="email" name="email" placeholder="Enter your email" required>
+  <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+    <input type="hidden" name="form-name" value="newsletter" />
+  
+    <p hidden>
+      <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+    </p>
+  
+    <input type="email" name="email" placeholder="Enter your email" required />
     <button type="submit">Subscribe</button>
+  
+    <div id="thanks-message" style="display:none; margin-top:20px; color:lightgreen;">
+      🎉 Thank you for subscribing!
+    </div>
   </form>
+  
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const form = document.querySelector('form');
-      form.addEventListener('submit', function(event) {
-        event.preventDefault(); // Stop normal submission
-        const data = new FormData(form);
-    
-        fetch('/', {
-          method: 'POST',
-          body: data
-        }).then(() => {
-          form.style.display = 'none'; // Hide form
-          document.getElementById('thanks-message').style.display = 'block'; // Show Thank you
-        }).catch((error) => {
-          alert('Oops! Something went wrong.');
-        });
+  document.addEventListener('DOMContentLoaded', function() {
+    const form = document.querySelector('form');
+    form.addEventListener('submit', function(event) {
+      event.preventDefault(); // Stop normal submission
+      const data = new FormData(form);
+  
+      fetch('/', {
+        method: 'POST',
+        body: data
+      }).then(() => {
+        form.style.display = 'none'; // Hide form
+        document.getElementById('thanks-message').style.display = 'block'; // Show Thank you
+      }).catch((error) => {
+        alert('Oops! Something went wrong.');
       });
     });
-    </script>
+  });
+  </script>
+  
 </body>
 </html>
