@@ -1,3 +1,5 @@
+/* Puzzle Monsters Website - Version 1.0.5 */
+
 /* Reset default margin and padding */
 html, body {
     margin: 0;
@@ -10,10 +12,10 @@ html, body {
     background: url('images/SD-7772.png') no-repeat center center fixed;
     background-size: cover;
     font-family: Arial, sans-serif;
-    color: white;
+    color: white; /* Global text color: white */
   }
   
-  /* Centering everything */
+  /* Wrapper to center everything */
   .wrapper {
     display: flex;
     justify-content: center;
@@ -30,15 +32,16 @@ html, body {
     padding: 40px;
     border-radius: 15px;
     text-align: center;
-    color: #222;
     max-width: 700px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 1s ease-out; /* Fade in content */
   }
   
-  /* Headings and paragraphs */
+  /* Headings and paragraph */
   h1, h2, p {
     margin: 10px 20px;
     max-width: 600px;
+    color: white; /* Ensure white text inside content-box */
   }
   
   /* Form container */
@@ -47,10 +50,11 @@ html, body {
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    color: #333;
+    color: white; /* Form labels and general form text color */
     max-width: 400px;
     width: 90%;
     margin: 30px auto 0 auto;
+    animation: fadeIn 1.5s ease-out; /* Fade in form with slight delay */
   }
   
   /* Form layout */
@@ -60,14 +64,14 @@ html, body {
     align-items: center;
   }
   
-  /* Form groups (label + input) */
+  /* Form group: label + input together */
   .form-group {
     width: 100%;
     margin-bottom: 15px;
     text-align: left;
   }
   
-  /* Inputs */
+  /* Input fields */
   input[type="text"],
   input[type="email"],
   textarea {
@@ -77,6 +81,8 @@ html, body {
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    color: white; /* Input text is white */
   }
   
   /* Button styling */
@@ -95,7 +101,19 @@ html, body {
     background-color: #ff8533;
   }
   
-  /* Mobile responsive */
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Mobile responsive adjustments */
   @media (max-width: 600px) {
     .content-box {
       padding: 20px;
