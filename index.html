@@ -3,121 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <title>The Puzzle Monsters Website</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100vh;
-      background: url('images/SD-7772.png') no-repeat center center fixed;
-      background-size: cover;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      font-family: Arial, sans-serif;
-      color: white;
-      backdrop-filter: brightness(0.8); /* slightly darken bg for better contrast */
-    }
-
-    .content-box {
-      background-color: rgba(255, 255, 255, 0.25);
-      
-      padding: 40px;
-      border-radius: 15px;
-      text-align: center;
-      color: #222;
-      max-width: 700px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    }
-    h1, h2, p {
-      margin: 10px 20px;
-      max-width: 600px;
-    }
-    .form-container {
-      background: rgba(255, 255, 255, 0.45); /* semi-transparent white */
-      padding: 30px;
-      border-radius: 15px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-      color: #333;
-      max-width: 400px;
-      width: 90%;
-      margin-top: 30px;
-    }
-    form {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    input[type="text"],
-    input[type="email"],
-    textarea {
-      width: 100%;
-      padding: 10px;
-      margin: 10px 0;
-      font-size: 16px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    button {
-      padding: 10px 20px;
-      font-size: 18px;
-      background-color: #ff6600;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      margin-top: 10px;
-    }
-    button:hover {
-      background-color: #ff8533;
-    }
-
-    @media (max-width: 600px) {
-      .content-box {
-        padding: 20px;
-      }
-
-      input[type="email"] {
-        width: 100%;
-        margin: 10px 0;
-      }
-
-      button {
-        width: 100%;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="content-box">
-  <h1>Coming Soon: The Puzzle Monsters Website</h1>
-  <h2>At Puzzle Monsters, we handcraft engaging Puzzle Books that promise endless fun and adventure. Explore our collection and uncover the magic within each page.</h2>
-  <p>Join our community of puzzle enthusiasts and never miss out on the latest releases, exclusive offers, and more!</p>
-  
-  <div class="form-container">
-    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-      <input type="hidden" name="form-name" value="contact" />
-      
-      <p hidden>
-        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-      </p>
-      
-      <p>
-        <label>Your Name:</label>
-        <input type="text" name="name" required />
-      </p>
-      <p>
-        <label>Your Email:</label>
-        <input type="email" name="email" required />
-      </p>
-   
-      <p>
-        <button type="submit">Subscribe</button>
-      </p>
-    </form>
-  </div>
+  <div class="wrapper">
+    <div class="content-box">
+      <h1>Coming Soon: The Puzzle Monsters Website</h1>
+      <h2>At Puzzle Monsters, we handcraft engaging Puzzle Books that promise endless fun and adventure. Explore our collection and uncover the magic within each page.</h2>
+      <p>Join our community of puzzle enthusiasts and never miss out on the latest releases, exclusive offers, and more!</p>
+
+      <div class="form-container">
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact" />
+
+          <div hidden>
+            <label for="bot-field">Don’t fill this out if you're human:</label>
+            <input id="bot-field" name="bot-field" />
+          </div>
+
+          <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input id="name" type="text" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email:</label>
+            <input id="email" type="email" name="email" required />
+          </div>
+
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
   </div>
 
+  <script src="script.js"></script>
 </body>
 </html>

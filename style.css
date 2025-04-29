@@ -1,0 +1,117 @@
+/* Reset default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  /* Background and base font */
+  body {
+    background: url('images/SD-7772.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  /* Centering everything */
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+    backdrop-filter: brightness(0.8);
+  }
+  
+  /* Main content box */
+  .content-box {
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    color: #222;
+    max-width: 700px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Headings and paragraphs */
+  h1, h2, p {
+    margin: 10px 20px;
+    max-width: 600px;
+  }
+  
+  /* Form container */
+  .form-container {
+    background: rgba(255, 255, 255, 0.45);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: #333;
+    max-width: 400px;
+    width: 90%;
+    margin: 30px auto 0 auto;
+  }
+  
+  /* Form layout */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Form groups (label + input) */
+  .form-group {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  /* Inputs */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #ff8533;
+  }
+  
+  /* Mobile responsive */
+  @media (max-width: 600px) {
+    .content-box {
+      padding: 20px;
+    }
+  
+    .form-container {
+      padding: 20px;
+    }
+  
+    input[type="email"],
+    input[type="text"] {
+      width: 100%;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
