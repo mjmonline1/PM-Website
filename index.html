@@ -2,18 +2,60 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>The Puzzle Monsters website.</title>
+  <title>The Puzzle Monsters Website</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: url('your-background-image.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      color: white;
+      backdrop-filter: brightness(0.8); /* optional: darken bg slightly for better text contrast */
+    }
+    h1, h2, p {
+      margin: 10px 20px;
+      max-width: 600px;
+    }
+    form {
+      margin-top: 20px;
+    }
+    input[type="email"] {
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #ff6600;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ff8533;
+    }
+  </style>
 </head>
 <body>
 
-  <h1>Coming Soon the Puzzle Monsters website.</h1>
-  <h2>At the Puzzle Monsters, we handcraft engaging Puzzle Books that promise endless fun and adventure.
-Explore our collection and uncover the magic within each page</h2>
-<p>Join our community of Puzzle enthusiasts and never miss out on the latest releases, exclusive offers, and more!</p>
-<form name="newsletter" method="POST" data-netlify="true">
-  <input type="email" name="email" placeholder="Enter your email" required>
-  <button type="submit">Subscribe</button>
-</form>
+  <h1>Coming Soon: The Puzzle Monsters Website</h1>
+  <h2>At Puzzle Monsters, we handcraft engaging Puzzle Books that promise endless fun and adventure. Explore our collection and uncover the magic within each page.</h2>
+  <p>Join our community of puzzle enthusiasts and never miss out on the latest releases, exclusive offers, and more!</p>
+  <form name="newsletter" method="POST" data-netlify="true">
+    <input type="email" name="email" placeholder="Enter your email" required>
+    <button type="submit">Subscribe</button>
+  </form>
 
 </body>
 </html>
