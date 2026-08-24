@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.thepuzzlemonsters.com/sitemap.xml
