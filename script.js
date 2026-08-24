@@ -16,6 +16,12 @@
 //
 // The kindle branch is DORMANT right now — no data-kindle links are on the page. It is kept
 // for the Classic Reads titles, which return alongside the Charles Dickens word search.
+//
+// Every href already carries ?tag=thepuzzlemons-20 (Amazon Associates, US marketplace only).
+// This rewrite only swaps the hostname — the query string, tag included, rides along
+// untouched. On a non-.com storefront the tag is simply not the store's own tracking ID,
+// so the link works but earns nothing there yet. Add a store->tag map here once accounts
+// for other marketplaces exist (see OneLink note in project memory).
 (function () {
   var TZ_STORE = {
     'Europe/Dublin': 'amazon.ie',
