@@ -9,8 +9,13 @@ html, body {
   
   /* Background and base font */
   body {
-    background: url('images/SD-7772.png') no-repeat center center fixed;
-    background-size: cover;
+    /* Dark scrim over the artwork: the page now scrolls past one screen, and white
+       text on the light purple monster was unreadable without it. */
+    background:
+      linear-gradient(rgba(20, 6, 34, 0.62), rgba(20, 6, 34, 0.62)),
+      url('images/SD-7772.png') no-repeat center center fixed;
+    background-size: cover, cover;
+    background-color: #1a0a2b; /* fallback below the fixed image */
     font-family: Arial, sans-serif;
     color: white; /* Global text color: white */
   }
@@ -18,17 +23,20 @@ html, body {
   /* Wrapper to center everything */
   .wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    height: 100%;
+    min-height: 100%;   /* was height:100% — clipped content once the page scrolled */
     flex-direction: column;
     text-align: center;
-    backdrop-filter: brightness(0.8);
+    
+    padding: 40px 16px;
+    box-sizing: border-box;
+    gap: 28px;
   }
   
   /* Main content box */
   .content-box {
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(12, 4, 22, 0.62);
     padding: 40px;
     border-radius: 15px;
     text-align: center;
@@ -46,7 +54,7 @@ html, body {
   
   /* Form container */
   .form-container {
-    background: rgba(255, 255, 255, 0.45);
+    background: rgba(12, 4, 22, 0.5);
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -133,3 +141,71 @@ html, body {
     }
   }
   
+/* ---------- v1.1 catalogue page ---------- */
+
+.content-box { width: 100%; box-sizing: border-box; margin: 0; }
+
+.hero h1 { font-size: 2.6rem; letter-spacing: 0.5px; margin-bottom: 4px; }
+.hero h2 { font-size: 1.05rem; font-weight: 400; opacity: 0.95; }
+
+.btn-primary {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 12px 26px;
+  background-color: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.05rem;
+  border-radius: 5px;
+}
+.btn-primary:hover { background-color: #ff8533; }
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.75rem;
+  opacity: 0.85;
+  margin-bottom: 0;
+}
+.feature-title { font-size: 2rem; margin-top: 4px; }
+
+.books h2 { margin-bottom: 8px; }
+.collection {
+  margin: 28px 0 10px;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  padding-bottom: 6px;
+}
+
+.booklist { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+@media (min-width: 640px) { .booklist { grid-template-columns: 1fr 1fr; } }
+
+.booklist a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  height: 100%;
+  box-sizing: border-box;
+  /* ponytail: 44px min touch target — most visitors arrive by scanning a QR on a phone */
+  min-height: 44px;
+}
+.booklist a:hover { background: rgba(255, 255, 255, 0.24); }
+.booklist .t { font-weight: bold; font-size: 1rem; }
+.booklist .d { font-size: 0.85rem; opacity: 0.85; margin-top: 2px; }
+
+.site-footer { font-size: 0.85rem; opacity: 0.8; }
+.site-footer p { margin: 0; }
+
+@media (max-width: 600px) {
+  .hero h1 { font-size: 2rem; }
+  .feature-title { font-size: 1.6rem; }
+  .wrapper { padding: 24px 12px; gap: 20px; }
+}
