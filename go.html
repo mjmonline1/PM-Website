@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6521TDM9Q9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6521TDM9Q9');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Puzzle Monsters</title>
+  <!-- ponytail: one template, many books via ?b=<ASIN> — don't let Google index
+       21 near-duplicate pages under one URL. -->
+  <meta name="robots" content="noindex, follow">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+</head>
+<body>
+  <div class="wrapper">
+
+    <section class="content-box feature">
+      <p class="eyebrow">The Puzzle Monsters</p>
+      <h2 class="feature-title" id="book-title">Handcrafted puzzle books</h2>
+      <p id="book-blurb">Browse our full catalogue of puzzle books.</p>
+      <a class="btn-primary" id="buy-btn" href="/index.html#books" target="_blank" rel="noopener">See all our books</a>
+    </section>
+
+    <section class="content-box">
+      <h2>Get a free puzzle pack</h2>
+      <p>Sign up and we'll send you straight to a free printable word search from the Professor's library.</p>
+
+      <div class="form-container">
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
+          <input type="hidden" name="form-name" value="contact" />
+
+          <div hidden>
+            <label for="bot-field">Don’t fill this out if you're human:</label>
+            <input id="bot-field" name="bot-field" />
+          </div>
+
+          <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input id="name" type="text" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email:</label>
+            <input id="email" type="email" name="email" required />
+          </div>
+
+          <button type="submit">Get my free puzzle pack</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 The Puzzle Monsters &middot; Books available on Amazon</p>
+    </footer>
+
+  </div>
+
+  <script src="books-data.js"></script>
+  <script>
+    // ponytail: inline, runs during initial parse — before DOMContentLoaded fires,
+    // so script.js's locale-swap (which waits for DOMContentLoaded) still sees the
+    // right href and data-kindle attribute on this anchor.
+    (function () {
+      var asin = new URLSearchParams(location.search).get('b');
+      var book = asin && window.PM_BOOKS[asin];
+      if (!book) return; // fallback markup already in the HTML
+      document.getElementById('book-title').textContent = book.title;
+      document.getElementById('book-blurb').textContent = book.blurb;
+      var btn = document.getElementById('buy-btn');
+      var host = book.kindle ? 'www.amazon.co.uk' : 'www.amazon.com';
+      btn.href = 'https://' + host + '/dp/' + asin + '?tag=thepuzzlemons-20';
+      btn.textContent = 'Buy on Amazon';
+      if (book.kindle) btn.setAttribute('data-kindle', '');
+      document.title = book.title + ' — The Puzzle Monsters';
+    })();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
