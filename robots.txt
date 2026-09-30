@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /fleadh.html
 
 Sitemap: https://www.thepuzzlemonsters.com/sitemap.xml
