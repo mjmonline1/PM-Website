@@ -1,9 +1,12 @@
-// ponytail: flat object literal, not a DB call. 21 entries, changes rarely —
-// new book = one line here before creating its Pinterest pin. Generate this
-// from Books.Catalogue only if hand-editing it becomes a monthly chore (same
+// ponytail: flat object literal, not a DB call. Changes rarely — new book = one
+// line here before creating its Pinterest pin. Generate this from
+// Books.Catalogue only if hand-editing it becomes a monthly chore (same
 // call already made for index.html's own book list, see its comment).
 window.PM_BOOKS = {
   'B0H9VBRNNT': { title: 'Puzzle Dublin', blurb: '99 Dublin word searches — Trinity College to Temple Bar, Viking lanes to Silicon Docks. A true Dublin fact on every page.' },
+  'B0HJFSNV6G': { title: 'Halloween Word Search', blurb: '99 spooky puzzles — witches, folklore and haunted places, one per page.' },
+  'B0HGF22DL5': { title: 'Codewords Puzzle Book', blurb: '99 codeword puzzles with starter clues to get you going.' },
+  'B0HM7TRGX7': { title: 'Large Print Sudoku', blurb: 'Large print — 99 bold, easy sudoku puzzles, one per page.' },
   'B0HBLNWNBC': { title: 'Puzzle London', blurb: '99 London word searches. A true London fact on every page.' },
   'B0HBLNLLMW': { title: 'Puzzle Paris', blurb: '99 Paris word searches. A true Paris fact on every page.' },
   'B0HBLQFQV2': { title: 'Puzzle New York', blurb: '99 New York word searches. A true New York fact on every page.' },
@@ -19,7 +22,8 @@ window.PM_BOOKS = {
   'B0D7WGWVT1': { title: 'Connections Volume 2', blurb: 'Large print — 4 groups of 4, one common link.' },
   'B0G1HGQ6S2': { title: 'Connections Volume 3', blurb: '4 groups of 4, one common link.' },
   'B0GDY63GMK': { title: 'Connections Volume 4', blurb: '4 groups of 4, one common link.' },
-  'B0DP1P2J9C': { title: 'A Christmas Carol', blurb: 'Annotated classic — every reference explained, nothing lost.', kindle: true },
+  'B0DP1P2J9C': { title: 'A Christmas Carol', blurb: 'Annotated classic — every reference explained, nothing lost.' },
+  'B0D5CMBCKL': { title: 'Great Expectations', blurb: 'Annotated classic — every reference explained, nothing lost.', kindle: true },
   'B0DPSYJPB5': { title: 'The Chimes', blurb: 'Annotated classic — every reference explained, nothing lost.', kindle: true },
   'B0DPVN9MPH': { title: 'The Cricket on the Hearth', blurb: 'Annotated classic — every reference explained, nothing lost.', kindle: true },
   'B0DPXTZFHM': { title: 'The Battle of Life', blurb: 'Annotated classic — every reference explained, nothing lost.', kindle: true },
