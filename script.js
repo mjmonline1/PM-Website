@@ -66,6 +66,51 @@
     }
   }
 
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', localise);
-  else localise();
+  // Seasonal "Featured now" box — owner asked 2026-10-31 for the homepage to surface
+  // whatever's in-season (e.g. the Halloween books in October) instead of one static
+  // card that goes stale. One line per window; add/edit here, no other file to touch.
+  // ponytail: flat array + a date-range check, not a CMS. Add a line here per season.
+  var SEASONAL_FEATURES = [
+    { label: 'Featured this month 🎃', from: [10, 10], to: [10, 31], books: [
+        { asin: 'B0HJFSNV6G', title: 'Halloween Word Search', blurb: '99 spooky puzzles — witches, folklore and haunted places, one per page.' },
+        { asin: 'B0HGHFFQT5', title: 'Classic Horror Movies Word Search', blurb: '99 puzzles from the classics that started it all.' }
+      ] },
+    { label: 'Featured this month 🎄', from: [12, 1], to: [12, 26], books: [
+        { asin: 'B0HPW6XMLN', title: 'Christmas Word Search', blurb: '99 festive puzzles — traditions from around the world, a fun fact on every page.' },
+        { asin: 'B0HPW7WM12', title: 'Charles Dickens Word Search', blurb: '99 puzzles for classic literature fans — novels, characters & Victorian London.' }
+      ] },
+    { label: 'Featured this month 🏖', from: [6, 1], to: [8, 31], books: [
+        { asin: 'B0HFDJ8T3Y', title: 'A Day at the Beach', blurb: 'Large print — sun, sand and surf, 99 puzzles.' }
+      ] }
+  ];
+
+  function inWindow(m, d, from, to) {
+    return (m > from[0] || (m === from[0] && d >= from[1])) &&
+           (m < to[0]   || (m === to[0]   && d <= to[1]));
+  }
+
+  function renderFeatured() {
+    var el = document.getElementById('featured');
+    if (!el) return;
+    var now = new Date();
+    var m = now.getMonth() + 1, d = now.getDate();
+    var season = null;
+    for (var i = 0; i < SEASONAL_FEATURES.length; i++) {
+      if (inWindow(m, d, SEASONAL_FEATURES[i].from, SEASONAL_FEATURES[i].to)) { season = SEASONAL_FEATURES[i]; break; }
+    }
+    if (!season) return; // no window matches today — keep the hand-written fallback card
+
+    var cards = season.books.map(function (b) {
+      return '<div class="feature-card">' +
+        '<h3>' + b.title + '</h3><p>' + b.blurb + '</p>' +
+        '<a class="btn-primary" href="https://www.amazon.com/dp/' + b.asin + '?tag=thepuzzlemons-20" target="_blank" rel="noopener">Buy on Amazon</a>' +
+        '</div>';
+    }).join('');
+    el.innerHTML = '<p class="eyebrow">' + season.label + '</p><div class="feature-grid">' + cards + '</div>';
+  }
+
+  function init() { renderFeatured(); localise(); }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
 })();

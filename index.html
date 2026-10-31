@@ -79,8 +79,12 @@
     </header>
 
     <!-- ponytail: book list is hand-maintained. If this turns into a monthly chore,
-         generate index.html from Books.Catalogue (pipeline.live.asins) instead. -->
-    <section class="content-box feature">
+         generate index.html from Books.Catalogue (pipeline.live.asins) instead.
+         This box's content is overwritten by script.js (renderFeatured) when today's
+         date falls in a seasonal window (see SEASONAL_FEATURES there) — e.g. Halloween
+         books in October. Outside any window, this hand-written card is the fallback,
+         same as before; also what no-JS visitors see. -->
+    <section class="content-box feature" id="featured">
       <p class="eyebrow">New release</p>
       <h2 class="feature-title">Puzzle Dublin</h2>
       <p>99 Dublin word searches — Trinity College to Temple Bar, Viking lanes to Silicon Docks. A true Dublin fact on every page.</p>
