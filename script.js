@@ -81,6 +81,9 @@
       ] },
     { label: 'Featured this month 🏖', from: [6, 1], to: [8, 31], books: [
         { asin: 'B0HFDJ8T3Y', title: 'A Day at the Beach', blurb: 'Large print — sun, sand and surf, 99 puzzles.' }
+      ] },
+    { label: 'Featured this month 🎆', from: [10, 25], to: [11, 5], books: [
+        { asin: 'B0HQ5HJX9C', title: 'Guy Fawkes Night Word Search', blurb: '99 puzzles for Bonfire Night — Gunpowder Plot, fireworks and tradition, a history fact on every page.' }
       ] }
   ];
 
