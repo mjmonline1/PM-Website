@@ -21,6 +21,7 @@ window.PM_BOOKS = {
   'B0HPW6XMLN': { title: 'Christmas Word Search', blurb: '99 festive puzzles — traditions from around the world, a fun fact on every page.' },
   'B0HPW7WM12': { title: 'Charles Dickens Word Search', blurb: '99 puzzles for classic literature fans — novels, characters & Victorian London.' },
   'B0HQ5HJX9C': { title: 'Guy Fawkes Night Word Search', blurb: '99 puzzles for Bonfire Night — Gunpowder Plot, fireworks and tradition, a history fact on every page.' },
+  'B0HQCPVSMY': { title: 'Robots Word Search', blurb: '99 puzzles for robot fans — robotics, AI and automation, one per page.' },
   'B0D3CRSTXP': { title: 'Connections Puzzle Game Book', blurb: '4 groups of 4, one common link.' },
   'B0D7WGWVT1': { title: 'Connections Volume 2', blurb: 'Large print — 4 groups of 4, one common link.' },
   'B0G1HGQ6S2': { title: 'Connections Volume 3', blurb: '4 groups of 4, one common link.' },
