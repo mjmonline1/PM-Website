@@ -75,9 +75,11 @@
         { asin: 'B0HJFSNV6G', title: 'Halloween Word Search', blurb: '99 spooky puzzles — witches, folklore and haunted places, one per page.' },
         { asin: 'B0HGHFFQT5', title: 'Classic Horror Movies Word Search', blurb: '99 puzzles from the classics that started it all.' }
       ] },
-    { label: 'Featured this month 🎄', from: [12, 1], to: [12, 26], books: [
+    { label: 'Just in time for Christmas 🎄', from: [11, 6], to: [12, 24], books: [
+        { asin: 'B0HR7R21T9', title: 'Murder at the Village Fete', blurb: 'A cozy mystery word search — read the story, solve 50 puzzles, and catch the killer yourself.' },
         { asin: 'B0HPW6XMLN', title: 'Christmas Word Search', blurb: '99 festive puzzles — traditions from around the world, a fun fact on every page.' },
-        { asin: 'B0HPW7WM12', title: 'Charles Dickens Word Search', blurb: '99 puzzles for classic literature fans — novels, characters & Victorian London.' }
+        { asin: 'B0HPW7WM12', title: 'Charles Dickens Word Search', blurb: '99 puzzles for classic literature fans — novels, characters & Victorian London.' },
+        { asin: 'B0DP1P2J9C', title: 'A Christmas Carol', blurb: 'Annotated classic — every reference explained, nothing lost.' }
       ] },
     { label: 'Featured this month 🏖', from: [6, 1], to: [8, 31], books: [
         { asin: 'B0HFDJ8T3Y', title: 'A Day at the Beach', blurb: 'Large print — sun, sand and surf, 99 puzzles.' }
