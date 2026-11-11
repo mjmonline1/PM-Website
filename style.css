@@ -175,6 +175,7 @@ html, body {
 .feature-card { background: rgba(255, 255, 255, 0.1); border-radius: 10px; padding: 16px; text-align: left; }
 .feature-card h3 { margin: 0 0 6px; font-size: 1.1rem; color: #fff; }
 .feature-card p { margin: 0 0 12px; font-size: 0.9rem; opacity: 0.9; color: #fff; }
+.feature-card .btn-primary { display: block; width: fit-content; margin: 18px auto 0; }
 
 .books h2 { margin-bottom: 8px; }
 .collection {
