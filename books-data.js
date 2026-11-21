@@ -24,6 +24,7 @@ window.PM_BOOKS = {
   'B0HQCPVSMY': { title: 'Robots Word Search', blurb: '99 puzzles for robot fans — robotics, AI and automation, one per page.' },
   'B0HR7R21T9': { title: 'Murder at the Village Fete', blurb: 'A cozy mystery word search — read the story, solve 50 puzzles, and catch the killer yourself.' },
   'B0HS7T9D2Q': { title: 'Movie Quote Cryptograms', blurb: 'Large print — 99 iconic film lines hidden in code, 6 cipher styles from easy to hard.' },
+  'B0HSCDYNKJ': { title: 'Arsène Lupin Word Search', blurb: "99 puzzles from the gentleman-burglar's original adventures — every word taken from Maurice Leblanc's stories." },
   'B0D3CRSTXP': { title: 'Connections Puzzle Game Book', blurb: '4 groups of 4, one common link.' },
   'B0D7WGWVT1': { title: 'Connections Volume 2', blurb: 'Large print — 4 groups of 4, one common link.' },
   'B0G1HGQ6S2': { title: 'Connections Volume 3', blurb: '4 groups of 4, one common link.' },
