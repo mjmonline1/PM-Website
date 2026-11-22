@@ -59,6 +59,7 @@
 
     <footer class="site-footer">
       <p>&copy; 2026 The Puzzle Monsters &middot; Books available on Amazon</p>
+      <p>As an Amazon Associate we earn from qualifying purchases.</p>
     </footer>
 
   </div>
@@ -77,6 +78,7 @@
       var btn = document.getElementById('buy-btn');
       var host = book.kindle ? 'www.amazon.co.uk' : 'www.amazon.com';
       btn.href = 'https://' + host + '/dp/' + asin + '?tag=thepuzzlemons-20';
+      btn.rel = 'sponsored noopener';
       btn.textContent = 'Buy on Amazon';
       if (book.kindle) btn.setAttribute('data-kindle', '');
       document.title = book.title + ' — The Puzzle Monsters';

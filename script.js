@@ -108,7 +108,7 @@
     var cards = season.books.map(function (b) {
       return '<div class="feature-card">' +
         '<h3>' + b.title + '</h3><p>' + b.blurb + '</p>' +
-        '<a class="btn-primary" href="https://www.amazon.com/dp/' + b.asin + '?tag=thepuzzlemons-20" target="_blank" rel="noopener">Buy on Amazon</a>' +
+        '<a class="btn-primary" href="https://www.amazon.com/dp/' + b.asin + '?tag=thepuzzlemons-20" target="_blank" rel="sponsored noopener">Buy on Amazon</a>' +
         '</div>';
     }).join('');
     el.innerHTML = '<p class="eyebrow">' + season.label + '</p><div class="feature-grid">' + cards + '</div>';

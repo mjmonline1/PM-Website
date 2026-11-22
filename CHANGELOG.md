@@ -18,6 +18,12 @@ Basic mobile responsiveness added.
 
 Placeholder JavaScript file (script.js) included for future features.
 
+## [SEO pass] - 2026-11-21
+- Amazon links: rel="sponsored noopener" (Google affiliate-link rule); Associates disclosure in footer (index + go).
+- Keyword title/description; Organization + WebSite JSON-LD; "Who makes these books?" section.
+- Background 1.4MB PNG -> 53KB WebP + preload; fixed site.webmanifest paths/name and linked it.
+- sitemap lastmod; branded 404.html.
+
 ## [1.0.2] - 2025-04-29
 ### Improved
 - Increased size of "P" and "M" letters to better dominate the favicon space.

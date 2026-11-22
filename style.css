@@ -13,7 +13,7 @@ html, body {
        text on the light purple monster was unreadable without it. */
     background:
       linear-gradient(rgba(20, 6, 34, 0.62), rgba(20, 6, 34, 0.62)),
-      url('images/SD-7772.png') no-repeat center center fixed;
+      url('images/SD-7772.webp') no-repeat center center fixed;
     background-size: cover, cover;
     background-color: #1a0a2b; /* fallback below the fixed image */
     font-family: Arial, sans-serif;
