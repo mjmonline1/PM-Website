@@ -74,20 +74,20 @@
   // ponytail: flat array + a date-range check, not a CMS. Add a line here per season.
   var SEASONAL_FEATURES = [
     { label: 'Featured this month 🎃', from: [10, 10], to: [10, 31], books: [
-        { asin: 'B0HJFSNV6G', title: 'Halloween Word Search', blurb: '99 spooky puzzles — witches, folklore and haunted places, one per page.' },
-        { asin: 'B0HGHFFQT5', title: 'Classic Horror Movies Word Search', blurb: '99 puzzles from the classics that started it all.' }
+        { asin: 'B0HJFSNV6G', slug: 'halloween-word-search', title: 'Halloween Word Search', blurb: '99 spooky puzzles — witches, folklore and haunted places, one per page.' },
+        { asin: 'B0HGHFFQT5', slug: 'classic-horror-movies-word-search', title: 'Classic Horror Movies Word Search', blurb: '99 puzzles from the classics that started it all.' }
       ] },
     { label: 'Just in time for Christmas 🎄', from: [11, 6], to: [12, 24], books: [
-        { asin: 'B0HR7R21T9', title: 'Murder at the Village Fete', blurb: 'A cozy mystery word search — read the story, solve 50 puzzles, and catch the killer yourself.' },
-        { asin: 'B0HPW6XMLN', title: 'Christmas Word Search', blurb: '99 festive puzzles — traditions from around the world, a fun fact on every page.' },
-        { asin: 'B0HPW7WM12', title: 'Charles Dickens Word Search', blurb: '99 puzzles for classic literature fans — novels, characters & Victorian London.' },
-        { asin: 'B0DP1P2J9C', title: 'A Christmas Carol', blurb: 'Annotated classic — every reference explained, nothing lost.' }
+        { asin: 'B0HR7R21T9', slug: 'murder-at-the-village-fete', title: 'Murder at the Village Fete', blurb: 'A cozy mystery word search — read the story, solve 50 puzzles, and catch the killer yourself.' },
+        { asin: 'B0HPW6XMLN', slug: 'christmas-word-search', title: 'Christmas Word Search', blurb: '99 festive puzzles — traditions from around the world, a fun fact on every page.' },
+        { asin: 'B0HPW7WM12', slug: 'charles-dickens-word-search', title: 'Charles Dickens Word Search', blurb: '99 puzzles for classic literature fans — novels, characters & Victorian London.' },
+        { asin: 'B0DP1P2J9C', slug: 'a-christmas-carol-annotated', title: 'A Christmas Carol', blurb: 'Annotated classic — every reference explained, nothing lost.' }
       ] },
     { label: 'Featured this month 🏖', from: [6, 1], to: [8, 31], books: [
-        { asin: 'B0HFDJ8T3Y', title: 'A Day at the Beach', blurb: 'Large print — sun, sand and surf, 99 puzzles.' }
+        { asin: 'B0HFDJ8T3Y', slug: 'day-at-the-beach-word-search', title: 'A Day at the Beach', blurb: 'Large print — sun, sand and surf, 99 puzzles.' }
       ] },
     { label: 'Featured this month 🎆', from: [10, 25], to: [11, 5], books: [
-        { asin: 'B0HQ5HJX9C', title: 'Guy Fawkes Night Word Search', blurb: '99 puzzles for Bonfire Night — Gunpowder Plot, fireworks and tradition, a history fact on every page.' }
+        { asin: 'B0HQ5HJX9C', slug: 'guy-fawkes-night-word-search', title: 'Guy Fawkes Night Word Search', blurb: '99 puzzles for Bonfire Night — Gunpowder Plot, fireworks and tradition, a history fact on every page.' }
       ] }
   ];
 
@@ -109,7 +109,7 @@
 
     var cards = season.books.map(function (b) {
       return '<div class="feature-card">' +
-        '<h3>' + b.title + '</h3><p>' + b.blurb + '</p>' +
+        '<h3><a href="/books/' + b.slug + '/">' + b.title + '</a></h3><p>' + b.blurb + '</p>' +
         '<a class="btn-primary" href="https://www.amazon.com/dp/' + b.asin + '?tag=thepuzzlemons-20" target="_blank" rel="sponsored noopener">Buy on Amazon</a>' +
         '</div>';
     }).join('');

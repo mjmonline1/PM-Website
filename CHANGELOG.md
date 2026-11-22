@@ -18,6 +18,12 @@ Basic mobile responsiveness added.
 
 Placeholder JavaScript file (script.js) included for future features.
 
+## [All book pages] - 2026-11-22
+- sync-books.cjs fills books.json for all 32 live books: copy parsed from the live Amazon listing (data/amazon-snapshot.json), BookNumber/trim from Mongo Books.Catalogue, cover self-hosted from the Amazon image, sample page from the book's own Puzzles.pdf. Entries with "curated": true keep their hand-written copy.
+- build-books.cjs now also writes books/index.html (all books with covers) and regenerates the homepage book list + ItemList from books.json.
+- Every homepage title now opens its book page; seasonal featured cards link their titles to the book page too.
+- Classic Reads copy written by hand (Amazon copy had emoji and an unsourced reader quote).
+
 ## [Book pages pilot] - 2026-11-22
 - books.json + build-books.cjs (`node build-books.cjs`): one page per book at /books/<slug>/ with own cover, sample page, details, FAQs, Book + BreadcrumbList JSON-LD; rewrites sitemap.xml.
 - Pilot: Christmas Word Search, Arsène Lupin Word Search, Movie Quote Cryptograms. Homepage list + ItemList now point at these pages.

@@ -1,104 +1,1476 @@
 [
   {
+    "slug": "puzzle-dublin",
+    "asin": "B0H9VBRNNT",
+    "title": "Puzzle Dublin",
+    "collection": "Puzzle Cities",
+    "type": "wordsearch",
+    "blurb": "99 Dublin word searches",
+    "subtitle": "99 Dublin Word Search Puzzles",
+    "intro": [
+      "Ninety-nine puzzles that explore the fair city – Trinity College to Temple Bar, the Liffey quays to Howth Head, Viking lanes to Silicon Docks – plus a fascinating true fact on every single page."
+    ],
+    "highlights": [
+      "99 themed word search puzzles – places, people, history, food and local life",
+      "A true Dublin fact on every page – learn while you search",
+      "3 difficulty levels – 33 easy, 33 medium, 33 hard",
+      "Large, clear grids that are easy on the eyes",
+      "Full solutions at the back"
+    ],
+    "closing": "Pull up a stool, sharpen your pencil, and away you go. Sure it'll be grand.",
+    "suits": "The perfect gift for locals, visitors, and anyone who loves Dublin. Part of the Puzzle Cities collection.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 39,
+    "faqs": [
+      [
+        "How do I solve a word search?",
+        "Find each word from the list hidden in the grid and circle it. Words run in straight lines. Harder puzzles use bigger grids and longer words."
+      ],
+      [
+        "How hard are the puzzles?",
+        "There are three levels: 33 easy, 33 medium, 33 hard."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. Full solutions are at the back."
+      ]
+    ],
+    "metaTitle": "Puzzle Dublin Word Search Book | The Puzzle Monsters",
+    "metaDescription": "99 Dublin Word Searches. A True Dublin Fact on Every Page. Ninety-nine puzzles that explore the fair city – Trinity College to Temple Bar, the Liffey…",
+    "coverW": 464,
+    "coverH": 600,
+    "sample": {
+      "img": "puzzle-dublin-sample.webp",
+      "alt": "Sample page from Puzzle Dublin",
+      "caption": "Puzzle 1 from Puzzle Dublin, exactly as printed in the book."
+    }
+  },
+  {
+    "slug": "puzzle-london",
+    "asin": "B0HBLNWNBC",
+    "title": "Puzzle London",
+    "collection": "Puzzle Cities",
+    "type": "wordsearch",
+    "blurb": "99 London word searches",
+    "subtitle": "99 London Word Search Puzzles",
+    "intro": [
+      "Ninety-nine puzzles that explore the capital – the Tower to Trafalgar Square, Camden to Greenwich, black cabs to the top of the Shard – plus a fascinating true fact on every single page."
+    ],
+    "highlights": [
+      "99 themed word search puzzles – places, people, history, food and local life",
+      "A true London fact on every page – learn while you search",
+      "3 difficulty levels – 33 easy, 33 medium, 33 hard",
+      "Large, clear grids that are easy on the eyes",
+      "Full solutions at the back"
+    ],
+    "closing": "Put the kettle on, mind the gap, and off you go. Lovely stuff.",
+    "suits": "The perfect gift for locals, visitors, and anyone who loves London. Part of the Puzzle Cities collection.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 42,
+    "faqs": [
+      [
+        "How do I solve a word search?",
+        "Find each word from the list hidden in the grid and circle it. Words run in straight lines. Harder puzzles use bigger grids and longer words."
+      ],
+      [
+        "How hard are the puzzles?",
+        "There are three levels: 33 easy, 33 medium, 33 hard."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. Full solutions are at the back."
+      ]
+    ],
+    "metaTitle": "Puzzle London Word Search Book | The Puzzle Monsters",
+    "metaDescription": "99 London Word Searches. A True London Fact on Every Page. Ninety-nine puzzles that explore the capital – the Tower to Trafalgar Square, Camden to…",
+    "coverW": 464,
+    "coverH": 600,
+    "sample": {
+      "img": "puzzle-london-sample.webp",
+      "alt": "Sample page from Puzzle London",
+      "caption": "Puzzle 1 from Puzzle London, exactly as printed in the book."
+    }
+  },
+  {
+    "slug": "puzzle-paris",
+    "asin": "B0HBLNLLMW",
+    "title": "Puzzle Paris",
+    "collection": "Puzzle Cities",
+    "type": "wordsearch",
+    "blurb": "99 Paris word searches",
+    "subtitle": "99 Paris Word Search Puzzles",
+    "intro": [
+      "Ninety-nine puzzles that explore the City of Light – the Eiffel Tower to Montmartre, the Louvre to the Latin Quarter, boulangeries to the banks of the Seine – plus a fascinating true fact on every single page."
+    ],
+    "highlights": [
+      "99 themed word search puzzles – places, people, history, food and local life",
+      "A true Paris fact on every page – learn while you search",
+      "3 difficulty levels – 33 easy, 33 medium, 33 hard",
+      "Large, clear grids that are easy on the eyes",
+      "Full solutions at the back"
+    ],
+    "closing": "Order a cafe creme, settle onto the terrace, and begin. Bonne chance!",
+    "suits": "The perfect gift for locals, visitors, and anyone who loves Paris. Part of the Puzzle Cities collection.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 41,
+    "faqs": [
+      [
+        "How do I solve a word search?",
+        "Find each word from the list hidden in the grid and circle it. Words run in straight lines. Harder puzzles use bigger grids and longer words."
+      ],
+      [
+        "How hard are the puzzles?",
+        "There are three levels: 33 easy, 33 medium, 33 hard."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. Full solutions are at the back."
+      ]
+    ],
+    "metaTitle": "Puzzle Paris Word Search Book | The Puzzle Monsters",
+    "metaDescription": "99 Paris Word Searches. A True Paris Fact on Every Page. Ninety-nine puzzles that explore the City of Light – the Eiffel Tower to Montmartre, the Louvre…",
+    "coverW": 464,
+    "coverH": 600,
+    "sample": {
+      "img": "puzzle-paris-sample.webp",
+      "alt": "Sample page from Puzzle Paris",
+      "caption": "Puzzle 1 from Puzzle Paris, exactly as printed in the book."
+    }
+  },
+  {
+    "slug": "puzzle-new-york",
+    "asin": "B0HBLQFQV2",
+    "title": "Puzzle New York",
+    "collection": "Puzzle Cities",
+    "type": "wordsearch",
+    "blurb": "99 New York word searches",
+    "subtitle": "99 New York Word Search Puzzles",
+    "intro": [
+      "Ninety-nine puzzles that explore the five boroughs – Broadway to the Bronx, Coney Island to Central Park, bodegas to the top of the Empire State – plus a fascinating true fact on every single page."
+    ],
+    "highlights": [
+      "99 themed word search puzzles – places, people, history, food and local life",
+      "A true New York fact on every page – learn while you search",
+      "3 difficulty levels – 33 easy, 33 medium, 33 hard",
+      "Large, clear grids that are easy on the eyes",
+      "Full solutions at the back"
+    ],
+    "closing": "Grab a coffee and a bagel, find a stoop, and start hunting. This city never sleeps.",
+    "suits": "The perfect gift for locals, visitors, and anyone who loves New York. Part of the Puzzle Cities collection.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 40,
+    "faqs": [
+      [
+        "How do I solve a word search?",
+        "Find each word from the list hidden in the grid and circle it. Words run in straight lines. Harder puzzles use bigger grids and longer words."
+      ],
+      [
+        "How hard are the puzzles?",
+        "There are three levels: 33 easy, 33 medium, 33 hard."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. Full solutions are at the back."
+      ]
+    ],
+    "metaTitle": "Puzzle New York Word Search Book | The Puzzle Monsters",
+    "metaDescription": "99 New York Word Searches. A True New York Fact on Every Page. Ninety-nine puzzles that explore the five boroughs – Broadway to the Bronx, Coney Island to…",
+    "coverW": 464,
+    "coverH": 600,
+    "sample": {
+      "img": "puzzle-new-york-sample.webp",
+      "alt": "Sample page from Puzzle New York",
+      "caption": "Puzzle 1 from Puzzle New York, exactly as printed in the book."
+    }
+  },
+  {
+    "slug": "puzzle-belfast",
+    "asin": "B0HBWSYD9Z",
+    "title": "Puzzle Belfast",
+    "collection": "Puzzle Cities",
+    "type": "wordsearch",
+    "blurb": "99 Belfast word searches",
+    "subtitle": "99 Belfast Word Search Puzzles",
+    "intro": [
+      "Ninety-nine puzzles that explore the city – the Titanic slipways to Cave Hill, the Cathedral Quarter to Stormont, murals to music sessions – plus a fascinating true fact on every single page."
+    ],
+    "highlights": [
+      "99 themed word search puzzles – places, people, history, food and local life",
+      "A true Belfast fact on every page – learn while you search",
+      "3 difficulty levels – 33 easy, 33 medium, 33 hard",
+      "Large, clear grids that are easy on the eyes",
+      "Full solutions at the back"
+    ],
+    "closing": "Stick the kettle on, grab a soda farl, and get stuck in. Dead on.",
+    "suits": "The perfect gift for locals, visitors, and anyone who loves Belfast. Part of the Puzzle Cities collection.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 43,
+    "faqs": [
+      [
+        "How do I solve a word search?",
+        "Find each word from the list hidden in the grid and circle it. Words run in straight lines. Harder puzzles use bigger grids and longer words."
+      ],
+      [
+        "How hard are the puzzles?",
+        "There are three levels: 33 easy, 33 medium, 33 hard."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. Full solutions are at the back."
+      ]
+    ],
+    "metaTitle": "Puzzle Belfast Word Search Book | The Puzzle Monsters",
+    "metaDescription": "99 Belfast Word Searches. A True Belfast Fact on Every Page. Ninety-nine puzzles that explore the city – the Titanic slipways to Cave Hill, the Cathedral…",
+    "coverW": 464,
+    "coverH": 600,
+    "sample": {
+      "img": "puzzle-belfast-sample.webp",
+      "alt": "Sample page from Puzzle Belfast",
+      "caption": "Puzzle 1 from Puzzle Belfast, exactly as printed in the book."
+    }
+  },
+  {
+    "slug": "puzzle-bruges",
+    "asin": "B0HBM4KJB2",
+    "title": "Puzzle Bruges",
+    "collection": "Puzzle Cities",
+    "type": "wordsearch",
+    "blurb": "99 Bruges word searches",
+    "subtitle": "99 Bruges Word Search Puzzles",
+    "intro": [
+      "Ninety-nine puzzles that explore the Venice of the North – the Belfry to the Beguinage, canal boats to chocolate shops, lace to lamplit lanes – plus a fascinating true fact on every single page."
+    ],
+    "highlights": [
+      "99 themed word search puzzles – places, people, history, food and local life",
+      "A true Bruges fact on every page – learn while you search",
+      "3 difficulty levels – 33 easy, 33 medium, 33 hard",
+      "Large, clear grids that are easy on the eyes",
+      "Full solutions at the back"
+    ],
+    "closing": "Pour a Belgian beer, break some chocolate, and lose yourself in the old town.",
+    "suits": "The perfect gift for locals, visitors, and anyone who loves Bruges. Part of the Puzzle Cities collection.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 44,
+    "faqs": [
+      [
+        "How do I solve a word search?",
+        "Find each word from the list hidden in the grid and circle it. Words run in straight lines. Harder puzzles use bigger grids and longer words."
+      ],
+      [
+        "How hard are the puzzles?",
+        "There are three levels: 33 easy, 33 medium, 33 hard."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. Full solutions are at the back."
+      ]
+    ],
+    "metaTitle": "Puzzle Bruges Word Search Book | The Puzzle Monsters",
+    "metaDescription": "99 Bruges Word Searches. A True Bruges Fact on Every Page. Ninety-nine puzzles that explore the Venice of the North – the Belfry to the Beguinage, canal…",
+    "coverW": 464,
+    "coverH": 600,
+    "sample": {
+      "img": "puzzle-bruges-sample.webp",
+      "alt": "Sample page from Puzzle Bruges",
+      "caption": "Puzzle 1 from Puzzle Bruges, exactly as printed in the book."
+    }
+  },
+  {
+    "slug": "around-the-world-in-eighty-days-word-search",
+    "asin": "B0H9NL8SHX",
+    "title": "Around the World in Eighty Days Word Search",
+    "collection": "Word Search",
+    "type": "wordsearch",
+    "blurb": "99 puzzles from Jules Verne's classic",
+    "subtitle": "99 Word Search Puzzles from Jules Verne's Classic Adventure",
+    "intro": [
+      "Follow Phileas Fogg and Passepartout across Jules Verne's classic race around the globe – London to Suez, Bombay to Hong Kong, Yokohama to San Francisco and home again – with ninety-nine themed puzzles and a fact from the book on every single page."
+    ],
+    "highlights": [
+      "99 themed word search puzzles – characters, ports, transport and adventures from the novel",
+      "A fact from the story on every page – travel the world as you search",
+      "3 difficulty levels – 33 easy, 33 medium, 33 hard",
+      "Large, clear grids that are easy on the eyes",
+      "Full solutions at the back"
+    ],
+    "closing": "Eighty days. Ninety-nine puzzles. One unforgettable journey.",
+    "suits": "The perfect gift for puzzle lovers and fans of classic adventure. Part of the Novel Word Search collection – a companion to our annotated edition of the novel. Read the story, then solve the journey.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 37,
+    "faqs": [
+      [
+        "How do I solve a word search?",
+        "Find each word from the list hidden in the grid and circle it. Words run in straight lines. Harder puzzles use bigger grids and longer words."
+      ],
+      [
+        "How hard are the puzzles?",
+        "There are three levels: 33 easy, 33 medium, 33 hard."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. Full solutions are at the back."
+      ]
+    ],
+    "metaTitle": "Around the World in Eighty Days Word Search Book",
+    "metaDescription": "99 Word Searches. A Journey Around the World in Eighty Days. Follow Phileas Fogg and Passepartout across Jules Verne's classic race around the globe –…",
+    "coverW": 464,
+    "coverH": 600,
+    "sample": {
+      "img": "around-the-world-in-eighty-days-word-search-sample.webp",
+      "alt": "Sample page from Around the World in Eighty Days Word Search",
+      "caption": "Puzzle 1 from Around the World in Eighty Days Word Search, exactly as printed in the book."
+    }
+  },
+  {
+    "slug": "70s-tv-word-search",
+    "asin": "B0HDSP32R7",
+    "title": "70s TV Word Search",
+    "collection": "Word Search",
+    "type": "wordsearch",
+    "blurb": "Large print — 99 puzzles for grown-up kids of the 70s",
+    "subtitle": "99 Puzzles for Adults & Seniors",
+    "intro": [
+      "Ninety-nine puzzles that bring back the decade of rabbit-ear antennas and Saturday nights in front of the set – Happy Days to Charlie's Angels, The Brady Bunch to M*A*S*H, Starsky and Hutch to the Six Million Dollar Man – plus a fascinating true fact on every single page."
+    ],
+    "highlights": [
+      "99 themed word search puzzles covering the biggest shows of the 1970s",
+      "A true 70s TV fact on every page – learn while you search",
+      "3 difficulty levels – 33 easy, 33 medium, 33 hard",
+      "Bold, large-print grids that are easy on the eyes",
+      "Full solutions at the back"
+    ],
+    "closing": "Pull up a chair, sharpen your pencil, and turn on the TV in your mind.",
+    "suits": "The perfect gift for anyone who grew up glued to the set in the 70s, or wants to relive it.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 61,
+    "faqs": [
+      [
+        "How do I solve a word search?",
+        "Find each word from the list hidden in the grid and circle it. Words run in straight lines. Harder puzzles use bigger grids and longer words."
+      ],
+      [
+        "Is it large print?",
+        "Yes: bold, large-print grids that are easy on the eyes."
+      ],
+      [
+        "How hard are the puzzles?",
+        "There are three levels: 33 easy, 33 medium, 33 hard."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. Full solutions are at the back."
+      ]
+    ],
+    "metaTitle": "Large Print 70s TV Word Search Book | The Puzzle Monsters",
+    "metaDescription": "99 Large Print Word Searches. A True 70s TV Fact on Every Page. Ninety-nine puzzles that bring back the decade of rabbit-ear antennas and Saturday nights…",
+    "coverW": 464,
+    "coverH": 600,
+    "sample": {
+      "img": "70s-tv-word-search-sample.webp",
+      "alt": "Sample page from 70s TV Word Search",
+      "caption": "Puzzle 1 from 70s TV Word Search, exactly as printed in the book."
+    }
+  },
+  {
+    "slug": "day-at-the-beach-word-search",
+    "asin": "B0HFDJ8T3Y",
+    "title": "A Day at the Beach Word Search",
+    "collection": "Word Search",
+    "type": "wordsearch",
+    "blurb": "Large print — sun, sand and surf, 99 puzzles",
+    "subtitle": "Sun, Sand & Surf",
+    "intro": [
+      "Ninety-nine puzzles that capture a perfect day at the seaside – sun, sand, surf and everything in between – marine life to beach games, tide pools to sandcastles, sunrise walks to summer snacks – plus a fascinating true fact on every single page."
+    ],
+    "highlights": [
+      "99 themed word search puzzles covering every corner of a day at the beach",
+      "A true beach fact on every page – learn while you search",
+      "3 difficulty levels – 33 easy, 33 medium, 33 hard",
+      "Bold, large-print grids that are easy on the eyes",
+      "Full solutions at the back"
+    ],
+    "closing": "Grab a towel, find some shade, and spend the afternoon at the beach.",
+    "suits": "The perfect gift for anyone who loves the seaside, or wishes they were there right now.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 72,
+    "faqs": [
+      [
+        "How do I solve a word search?",
+        "Find each word from the list hidden in the grid and circle it. Words run in straight lines. Harder puzzles use bigger grids and longer words."
+      ],
+      [
+        "Is it large print?",
+        "Yes: bold, large-print grids that are easy on the eyes."
+      ],
+      [
+        "How hard are the puzzles?",
+        "There are three levels: 33 easy, 33 medium, 33 hard."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. Full solutions are at the back."
+      ]
+    ],
+    "metaTitle": "Large Print A Day at the Beach Word Search Book",
+    "metaDescription": "99 Large Print Word Searches. A True Beach Fact on Every Page. Ninety-nine puzzles that capture a perfect day at the seaside – sun, sand, surf and…",
+    "coverW": 464,
+    "coverH": 600,
+    "sample": {
+      "img": "day-at-the-beach-word-search-sample.webp",
+      "alt": "Sample page from A Day at the Beach Word Search",
+      "caption": "Puzzle 1 from A Day at the Beach Word Search, exactly as printed in the book."
+    }
+  },
+  {
+    "slug": "memory-and-calm-word-search",
+    "asin": "B0HDNG852W",
+    "title": "Memory and Calm Word Search",
+    "collection": "Word Search",
+    "type": "wordsearch",
+    "blurb": "Large print — 99 gentle EASY puzzles for seniors",
+    "subtitle": "Large Print Word Search for Seniors: 99 Easy Word Search Puzzles",
+    "intro": [
+      "Ninety-nine gentle word searches about the things that make a day feel good – pets, gardens, kitchens and the changing seasons. Every puzzle is EASY difficulty on a big, clear grid, with large print throughout."
+    ],
+    "highlights": [
+      "99 easy word search puzzles, one per page",
+      "Large 16pt+ print, easy on the eyes",
+      "Gentle everyday themes – pets, gardens, kitchen, and seasons",
+      "A comforting fact on every page",
+      "Full solutions at the back"
+    ],
+    "closing": "Part of the Memory and Calm collection – look for more large print, extra gentle word search volumes coming soon.",
+    "suits": "A calm, unhurried gift for a parent, grandparent, or anyone who wants an easy way to relax. No difficulty ramp, no small print – just familiar words and a quiet afternoon.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 70,
+    "faqs": [
+      [
+        "How do I solve a word search?",
+        "Find each word from the list hidden in the grid and circle it. Words run in straight lines. Harder puzzles use bigger grids and longer words."
+      ],
+      [
+        "Is it large print?",
+        "Yes: large 16pt+ print, easy on the eyes."
+      ],
+      [
+        "How hard are the puzzles?",
+        "Every puzzle is EASY difficulty, with no difficulty ramp."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. Full solutions are at the back."
+      ]
+    ],
+    "metaTitle": "Large Print Memory and Calm Word Search Book",
+    "metaDescription": "99 Easy Word Search Puzzles. Large Print, One Puzzle Per Page. Ninety-nine gentle word searches about the things that make a day feel good – pets,…",
+    "coverW": 464,
+    "coverH": 600,
+    "sample": {
+      "img": "memory-and-calm-word-search-sample.webp",
+      "alt": "Sample page from Memory and Calm Word Search",
+      "caption": "Puzzle 1 from Memory and Calm Word Search, exactly as printed in the book."
+    }
+  },
+  {
+    "slug": "classic-horror-movies-word-search",
+    "asin": "B0HGHFFQT5",
+    "title": "Classic Horror Movies Word Search",
+    "collection": "Word Search",
+    "type": "wordsearch",
+    "blurb": "99 puzzles from the classics that started it all",
+    "subtitle": "99 Golden Age Monster Puzzles",
+    "intro": [
+      "Ninety-nine puzzles that explore the birth of the movie monster – Dracula's castle to Frankenstein's laboratory, the Mummy's tomb to the Wolf Man's curse – featuring Bela Lugosi, Boris Karloff, Lon Chaney and the directors and stars who built the golden age of horror, plus a fascinating true fact on every single page."
+    ],
+    "highlights": [
+      "99 themed word search puzzles – iconic films, legendary actors, monsters and the studios behind them",
+      "A true horror-history fact on every page – learn while you search",
+      "3 difficulty levels – 33 easy, 33 medium, 33 hard",
+      "Large, clear grids that are easy on the eyes",
+      "Full solutions at the back"
+    ],
+    "suits": "The perfect gift for classic horror fans, monster movie collectors, and anyone who loves the golden age of Universal horror.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 74,
+    "faqs": [
+      [
+        "How do I solve a word search?",
+        "Find each word from the list hidden in the grid and circle it. Words run in straight lines. Harder puzzles use bigger grids and longer words."
+      ],
+      [
+        "How hard are the puzzles?",
+        "There are three levels: 33 easy, 33 medium, 33 hard."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. Full solutions are at the back."
+      ]
+    ],
+    "metaTitle": "Classic Horror Movies Word Search Book | The Puzzle Monsters",
+    "metaDescription": "99 Classic Horror Movie Word Searches. A True Golden-Age Monster Fact on Every Page. Ninety-nine puzzles that explore the birth of the movie monster –…",
+    "coverW": 464,
+    "coverH": 600,
+    "sample": {
+      "img": "classic-horror-movies-word-search-sample.webp",
+      "alt": "Sample page from Classic Horror Movies Word Search",
+      "caption": "Puzzle 1 from Classic Horror Movies Word Search, exactly as printed in the book."
+    }
+  },
+  {
+    "slug": "halloween-word-search",
+    "asin": "B0HJFSNV6G",
+    "title": "Halloween Word Search",
+    "collection": "Word Search",
+    "type": "wordsearch",
+    "blurb": "99 spooky puzzles — witches, folklore and haunted places",
+    "subtitle": "99 Spooky Puzzles for Adults",
+    "intro": [
+      "Ninety-nine spine-tingling puzzles packed with witches, folklore, haunted places and Halloween history – plus a fascinating fun fact on every single page."
+    ],
+    "highlights": [
+      "99 themed word search puzzles – from ancient Samhain to modern movie monsters",
+      "A spooky fun fact on every page – learn while you search",
+      "3 difficulty levels – 33 easy, 33 medium, 33 hard",
+      "Large, clear grids that are easy on the eyes",
+      "Full solutions at the back"
+    ],
+    "closing": "Grab a pencil, light a candle, and settle in for ninety-nine deliciously spooky searches.",
+    "suits": "The perfect Halloween treat for puzzle lovers, trick-or-treat downtime, autumn evenings, and anyone who loves a good scare of the puzzle kind. Great gift for adults and teens alike.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 29,
+    "faqs": [
+      [
+        "How do I solve a word search?",
+        "Find each word from the list hidden in the grid and circle it. Words run in straight lines. Harder puzzles use bigger grids and longer words."
+      ],
+      [
+        "How hard are the puzzles?",
+        "There are three levels: 33 easy, 33 medium, 33 hard."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. Full solutions are at the back."
+      ]
+    ],
+    "metaTitle": "Halloween Word Search Book | The Puzzle Monsters",
+    "metaDescription": "99 Spooky Word Searches. A Fun Fact on Every Page. Ninety-nine spine-tingling puzzles packed with witches, folklore, haunted places and Halloween history…",
+    "coverW": 464,
+    "coverH": 600,
+    "sample": {
+      "img": "halloween-word-search-sample.webp",
+      "alt": "Sample page from Halloween Word Search",
+      "caption": "Puzzle 1 from Halloween Word Search, exactly as printed in the book."
+    }
+  },
+  {
     "slug": "christmas-word-search",
     "asin": "B0HPW6XMLN",
     "title": "Christmas Word Search",
-    "subtitle": "99 Festive Puzzles, Vol 1",
     "collection": "Word Search",
-    "metaTitle": "Large Print Christmas Word Search Book | The Puzzle Monsters",
-    "metaDescription": "99 large print Christmas word searches with a festive fun fact on every page: Santa, carols, cocoa and traditions from around the world. Full solutions included.",
+    "type": "wordsearch",
+    "blurb": "99 festive puzzles — traditions from around the world, a fun fact on every page",
+    "subtitle": "99 Festive Puzzles, Vol 1",
     "intro": [
       "Ninety-nine festive word searches, from Santa's workshop and sleigh bells to Victorian Christmases and Hogmanay. Every puzzle has a Christmas fun fact printed under the grid, so you learn something on every single page.",
       "The grids are bold and large print, and the puzzles get harder as you go: 33 easy, 33 medium and 33 hard. Full solutions are at the back."
     ],
-    "details": [
-      ["Puzzles", "99 word searches, one per page"],
-      ["Difficulty", "33 easy, 33 medium, 33 hard"],
-      ["Print size", "Large print, bold grids"],
-      ["On every page", "A Christmas fun fact"],
-      ["Answers", "Full solutions at the back"],
-      ["Format", "Paperback, 8.5 x 11 in"]
+    "highlights": [
+      "99 themed word search puzzles – from Victorian Christmases to Hogmanay",
+      "A festive fun fact on every page – learn while you search",
+      "3 difficulty levels – 33 easy, 33 medium, 33 hard",
+      "Bold, large-print grids that are easy on the eyes",
+      "Full solutions at the back"
     ],
+    "closing": "Pour something warm, sharpen your pencil, and settle in for ninety-nine deliciously festive searches.",
     "suits": "Anyone who likes a relaxed puzzle with a cup of something warm. It makes an easy stocking stuffer for parents, grandparents and anyone else on your list who loves word searches.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 30,
+    "faqs": [
+      [
+        "Is this book large print?",
+        "Yes. The grids use bold, large letters that are easy on the eyes."
+      ],
+      [
+        "How hard are the puzzles?",
+        "There are three levels: 33 easy, 33 medium and 33 hard, so you can warm up before the tricky ones."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. Every puzzle has a full solution at the back of the book."
+      ],
+      [
+        "Is it a good gift for seniors?",
+        "Yes. It's large print, there's one puzzle per page, and there's a new Christmas fact to share every time you finish a grid."
+      ]
+    ],
+    "metaTitle": "Large Print Christmas Word Search Book | The Puzzle Monsters",
+    "metaDescription": "99 large print Christmas word searches with a festive fun fact on every page: Santa, carols, cocoa and traditions from around the world. Full solutions included.",
+    "coverW": 612,
+    "coverH": 792,
+    "details": [
+      [
+        "Puzzles",
+        "99 word searches, one per page"
+      ],
+      [
+        "Difficulty",
+        "33 easy, 33 medium, 33 hard"
+      ],
+      [
+        "Print size",
+        "Large print, bold grids"
+      ],
+      [
+        "On every page",
+        "A Christmas fun fact"
+      ],
+      [
+        "Answers",
+        "Full solutions at the back"
+      ],
+      [
+        "Format",
+        "Paperback, 8.5 x 11 in"
+      ]
+    ],
     "sample": {
       "img": "christmas-word-search-sample.webp",
       "alt": "Sample page: puzzle 1, Santa's Workshop, an easy large print word search grid with a fun fact about Thomas Nast under the grid",
       "caption": "Puzzle 1, Santa's Workshop (Easy). The fact under the grid: Santa's North Pole workshop was popularised in the 1860s by the American cartoonist Thomas Nast."
     },
+    "curated": true
+  },
+  {
+    "slug": "charles-dickens-word-search",
+    "asin": "B0HPW7WM12",
+    "title": "Charles Dickens Word Search",
+    "collection": "Word Search",
+    "type": "wordsearch",
+    "blurb": "99 puzzles for classic literature fans — novels, characters & Victorian London",
+    "subtitle": "99 Puzzles for Classic Literature Fans",
+    "intro": [
+      "Ninety-nine puzzles that explore the world of Charles Dickens – Scrooge's redemption to Pip's great expectations, Fagin's den to the barricades of Paris – plus a fascinating true fact about Dickens's life and works on every single page."
+    ],
+    "highlights": [
+      "99 themed word search puzzles – novels, characters, Victorian London and Dickens's own life",
+      "A true Dickens fact on every page – learn while you search",
+      "3 difficulty levels – 33 easy, 33 medium, 33 hard",
+      "Large, clear grids that are easy on the eyes",
+      "Full solutions at the back"
+    ],
+    "closing": "Pull up a chair, sharpen your pencil, and step into Victorian England.",
+    "suits": "The perfect gift for classic literature fans, book clubs, and anyone who loves a good Victorian tale.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 51,
     "faqs": [
-      ["Is this book large print?", "Yes. The grids use bold, large letters that are easy on the eyes."],
-      ["How hard are the puzzles?", "There are three levels: 33 easy, 33 medium and 33 hard, so you can warm up before the tricky ones."],
-      ["Are the answers included?", "Yes. Every puzzle has a full solution at the back of the book."],
-      ["Is it a good gift for seniors?", "Yes. It's large print, there's one puzzle per page, and there's a new Christmas fact to share every time you finish a grid."]
-    ]
+      [
+        "How do I solve a word search?",
+        "Find each word from the list hidden in the grid and circle it. Words run in straight lines. Harder puzzles use bigger grids and longer words."
+      ],
+      [
+        "How hard are the puzzles?",
+        "There are three levels: 33 easy, 33 medium, 33 hard."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. Full solutions are at the back."
+      ]
+    ],
+    "metaTitle": "Charles Dickens Word Search Book | The Puzzle Monsters",
+    "metaDescription": "99 Charles Dickens Word Searches. A True Dickens Fact on Every Page. Ninety-nine puzzles that explore the world of Charles Dickens – Scrooge's redemption…",
+    "coverW": 464,
+    "coverH": 600,
+    "sample": {
+      "img": "charles-dickens-word-search-sample.webp",
+      "alt": "Sample page from Charles Dickens Word Search",
+      "caption": "Puzzle 1 from Charles Dickens Word Search, exactly as printed in the book."
+    }
+  },
+  {
+    "slug": "guy-fawkes-night-word-search",
+    "asin": "B0HQ5HJX9C",
+    "title": "Guy Fawkes Night Word Search",
+    "collection": "Word Search",
+    "type": "wordsearch",
+    "blurb": "99 puzzles for Bonfire Night — Gunpowder Plot, fireworks and tradition",
+    "subtitle": "99 Puzzles for Bonfire Night",
+    "intro": [
+      "Ninety-nine puzzles celebrating Bonfire Night – the Gunpowder Plot, Guy Fawkes himself, fireworks, bonfires and the traditions that have marked the 5th of November for centuries – plus a fascinating true history fact on every single page."
+    ],
+    "highlights": [
+      "99 themed word search puzzles covering the Gunpowder Plot, Bonfire Night traditions and British history",
+      "A true history fact on every page – learn while you search",
+      "3 difficulty levels – 33 easy, 33 medium, 33 hard",
+      "Large, clear grids that are easy on the eyes",
+      "Full solutions at the back"
+    ],
+    "closing": "Light the fireworks, grab a pencil, and remember, remember.",
+    "suits": "The perfect gift for history lovers and anyone who marks Bonfire Night every year.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 83,
+    "faqs": [
+      [
+        "How do I solve a word search?",
+        "Find each word from the list hidden in the grid and circle it. Words run in straight lines. Harder puzzles use bigger grids and longer words."
+      ],
+      [
+        "How hard are the puzzles?",
+        "There are three levels: 33 easy, 33 medium, 33 hard."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. Full solutions are at the back."
+      ]
+    ],
+    "metaTitle": "Guy Fawkes Night Word Search Book | The Puzzle Monsters",
+    "metaDescription": "99 Guy Fawkes Night Word Searches. A True History Fact on Every Page. Ninety-nine puzzles celebrating Bonfire Night – the Gunpowder Plot, Guy Fawkes…",
+    "coverW": 464,
+    "coverH": 600,
+    "sample": {
+      "img": "guy-fawkes-night-word-search-sample.webp",
+      "alt": "Sample page from Guy Fawkes Night Word Search",
+      "caption": "Puzzle 1 from Guy Fawkes Night Word Search, exactly as printed in the book."
+    }
+  },
+  {
+    "slug": "robots-word-search",
+    "asin": "B0HQCPVSMY",
+    "title": "Robots Word Search",
+    "collection": "Word Search",
+    "type": "wordsearch",
+    "blurb": "99 puzzles for robot fans — robotics, AI and automation",
+    "subtitle": "99 Puzzles for Robot Fans",
+    "intro": [
+      "Ninety-nine puzzles that power up for robot fans – household helpers and factory arms, Mars rovers and movie androids, sensors and circuits, plus the real engineers and inventors who built them – and a fascinating true robot fact on every single page."
+    ],
+    "highlights": [
+      "99 themed word search puzzles – robot parts, real robots, robotics history, AI, space exploration and more",
+      "A real robot fact on every page – learn while you search",
+      "3 difficulty levels – 33 easy, 33 medium, 33 hard",
+      "Large, clear grids that are easy on the eyes",
+      "Full solutions at the back"
+    ],
+    "closing": "Charge up your pencil, boot up your brain, and start the search.",
+    "suits": "The perfect gift for STEM fans, robot lovers, and anyone who likes their puzzles with a bit of spark.",
+    "format": "Paperback, 8.5 x 11 in",
+    "faqs": [
+      [
+        "How do I solve a word search?",
+        "Find each word from the list hidden in the grid and circle it. Words run in straight lines. Harder puzzles use bigger grids and longer words."
+      ],
+      [
+        "How hard are the puzzles?",
+        "There are three levels: 33 easy, 33 medium, 33 hard."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. Full solutions are at the back."
+      ]
+    ],
+    "metaTitle": "Robots Word Search Book | The Puzzle Monsters",
+    "metaDescription": "99 Robot Word Searches. A Real Robot Fact on Every Page. Ninety-nine puzzles that power up for robot fans – household helpers and factory arms, Mars…",
+    "coverW": 464,
+    "coverH": 600,
+    "sample": {
+      "img": "robots-word-search-sample.webp",
+      "alt": "Sample page from Robots Word Search",
+      "caption": "Puzzle 1 from Robots Word Search, exactly as printed in the book."
+    }
+  },
+  {
+    "slug": "murder-at-the-village-fete",
+    "asin": "B0HR7R21T9",
+    "title": "Murder at the Village Fete",
+    "collection": "Word Search",
+    "type": "mystery",
+    "blurb": "A cozy mystery word search — read the story, solve 50 puzzles, catch the killer",
+    "subtitle": "A Cozy Mystery Word Search: 10 Chapters, 50 Puzzles, 1 Killer",
+    "intro": [
+      "Little Whitcombe's village fete has cake, bunting and a brass band. By four o'clock it also has a body. Gerald Thwaite, chairman of everything, has judged his last Victoria sponge, and five of his neighbours had a reason to wish him gone. Aggie Penrose, 72, retired crossword setter and incurable noticer of things, means to find out which of them did it.",
+      "This is a story you solve. Read a short scene, then work through five word searches. Every grid hides one extra clue word that is not on the word list. Find it, write it in your case notebook, cross off a suspect, and name the killer before the final chapter."
+    ],
+    "highlights": [
+      "A complete murder mystery told in 10 short chapters",
+      "50 word search puzzles, each hiding one secret clue word",
+      "A case notebook to track the five suspects and their alibis",
+      "One fair solution – every clue you need is on the page",
+      "Clear 15 x 15 grids on large 8.5 x 11 inch pages",
+      "Full solutions at the back, with the hidden clue words marked"
+    ],
+    "closing": "Sharpen your pencil. The cordial is on the table.",
+    "suits": "A perfect gift for cozy mystery readers, word search fans, and anyone who likes to guess the culprit before the detective does.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 84,
+    "faqs": [
+      [
+        "How does the mystery work?",
+        "Read a short scene, then solve five word searches. Every grid hides one extra clue word that is not on the word list. Find it, note it in the case notebook, and cross off a suspect."
+      ],
+      [
+        "Is the ending fair?",
+        "Yes. Every clue you need is on the page, and the solutions at the back mark the hidden clue words."
+      ]
+    ],
+    "metaTitle": "Murder at the Village Fete: Cozy Mystery Word Search Book",
+    "metaDescription": "A summer fete. A poisoned jug of elderflower cordial. Five suspects. One of them did it – can you work out who before Aggie does? Little Whitcombe's…",
+    "coverW": 464,
+    "coverH": 600,
+    "sample": {
+      "img": "murder-at-the-village-fete-sample.webp",
+      "alt": "Sample page from Murder at the Village Fete",
+      "caption": "Puzzle 1 from Murder at the Village Fete, exactly as printed in the book."
+    }
   },
   {
     "slug": "arsene-lupin-word-search",
     "asin": "B0HSCDYNKJ",
-    "skipStores": ["amazon.fr"],
     "title": "Arsène Lupin Word Search",
-    "subtitle": "99 Puzzles from the Original Stories",
     "collection": "Word Search",
-    "metaTitle": "Arsène Lupin Word Search Book: 99 Puzzles | The Puzzle Monsters",
-    "metaDescription": "99 word searches built from Maurice Leblanc's original Arsène Lupin stories. Every word comes from the story, with a real line from it on every page.",
+    "type": "wordsearch",
+    "blurb": "99 puzzles from the gentleman-burglar's original adventures",
+    "subtitle": "99 Puzzles from the Original Stories",
     "intro": [
       "Arsène Lupin, the gentleman-burglar, leaves his calling card before he steals. This book follows him through his classic adventures, from The Arrest of Arsène Lupin and The Black Pearl to The Hollow Needle, 813, The Crystal Stopper and The Teeth of the Tiger.",
       "Each puzzle is named after a real story or chapter, and every word in it comes from that story's original English text: the characters, the places, the jewels and the hiding places. Under each grid is a line quoted from the story itself."
     ],
-    "details": [
-      ["Puzzles", "99 word searches, one per page"],
-      ["Source", "14 classic Arsène Lupin books by Maurice Leblanc"],
-      ["Difficulty", "33 easy, 33 medium, 33 hard"],
-      ["Easy puzzles", "Extra-large 10 x 10 grids"],
-      ["On every page", "A real line from the story"],
-      ["Answers", "Full solutions at the back"],
-      ["Format", "Paperback, 8.5 x 11 in"]
+    "highlights": [
+      "99 word search puzzles drawn from 14 classic Arsene Lupin books",
+      "Every word taken from the original stories by Maurice Leblanc",
+      "A real line from the story on every puzzle page",
+      "33 Easy, 33 Medium and 33 Hard puzzles",
+      "Extra-large 10 x 10 grids for the Easy puzzles",
+      "Large 8.5 x 11 inch pages, one puzzle per page",
+      "Full solutions at the back"
     ],
+    "closing": "Lupin has left his card. Pick up your pencil and catch him.",
     "suits": "Mystery readers, fans of classic detective fiction and anyone who loves a clever thief. You don't need to have read the books first: each puzzle stands on its own, and the quotes might send you off to read them.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 85,
+    "faqs": [
+      [
+        "Do I need to have read the Arsène Lupin stories?",
+        "No. Each puzzle works on its own. The quote on each page gives you a taste of the story it comes from."
+      ],
+      [
+        "Where do the words come from?",
+        "Every word is taken from the original English text of the story the puzzle is named after."
+      ],
+      [
+        "Is it large print?",
+        "The pages are a large 8.5 x 11 inches, and the easy puzzles use extra-large 10 x 10 grids. The book isn't sold as a large print edition."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. Full solutions are at the back."
+      ]
+    ],
+    "metaTitle": "Arsène Lupin Word Search Book: 99 Puzzles | The Puzzle Monsters",
+    "metaDescription": "99 word searches built from Maurice Leblanc's original Arsène Lupin stories. Every word comes from the story, with a real line from it on every page.",
+    "coverW": 612,
+    "coverH": 792,
+    "skipStores": [
+      "amazon.fr"
+    ],
+    "details": [
+      [
+        "Puzzles",
+        "99 word searches, one per page"
+      ],
+      [
+        "Source",
+        "14 classic Arsène Lupin books by Maurice Leblanc"
+      ],
+      [
+        "Difficulty",
+        "33 easy, 33 medium, 33 hard"
+      ],
+      [
+        "Easy puzzles",
+        "Extra-large 10 x 10 grids"
+      ],
+      [
+        "On every page",
+        "A real line from the story"
+      ],
+      [
+        "Answers",
+        "Full solutions at the back"
+      ],
+      [
+        "Format",
+        "Paperback, 8.5 x 11 in"
+      ]
+    ],
     "sample": {
       "img": "arsene-lupin-word-search-sample.webp",
       "alt": "Sample page: puzzle 1, The Arrest of Arsène Lupin, an easy 10 by 10 word search with a quote from the story under the grid",
       "caption": "Puzzle 1, The Arrest of Arsène Lupin (Easy). The words (Ganimard, Steamer, Wireless, Kodak and more) all come from the story, and the quoted line under the grid is taken from it word for word."
     },
+    "curated": true
+  },
+  {
+    "slug": "connections-puzzle-game-book",
+    "asin": "B0D3CRSTXP",
+    "title": "Connections Puzzle Game Book",
+    "collection": "Connections",
+    "type": "connections",
+    "blurb": "4 groups of 4, one common link",
+    "subtitle": "Volume 1",
+    "intro": [
+      "Find the hidden connection. Group the words. Feel very smug about it.",
+      "Each puzzle gives you 16 words – your job is to sort them into 4 secret groups of 4, all sharing a common link. Simple to explain, sneaky to solve, and exactly the kind of puzzle that turns \"just one more\" into an hour has gone by."
+    ],
+    "highlights": [
+      "Dozens of Connections-style puzzles, 4 groups of 4 words per puzzle",
+      "Full answer key at the back"
+    ],
+    "closing": "Makers Warning: side effects may include intense brain tickling, chronic pondering, and excessive smugness upon completion. Volume 1 of the Connections Puzzle Game collection – look for Volumes 2 (Large Print), 3 and 4 for more of the same devious fun.",
+    "suits": "A perfect gift for anyone who loves a daily brain workout, family game night, or a good travel companion.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 1,
     "faqs": [
-      ["Do I need to have read the Arsène Lupin stories?", "No. Each puzzle works on its own. The quote on each page gives you a taste of the story it comes from."],
-      ["Where do the words come from?", "Every word is taken from the original English text of the story the puzzle is named after."],
-      ["Is it large print?", "The pages are a large 8.5 x 11 inches, and the easy puzzles use extra-large 10 x 10 grids. The book isn't sold as a large print edition."],
-      ["Are the answers included?", "Yes. Full solutions are at the back."]
-    ]
+      [
+        "How does a Connections puzzle work?",
+        "Each puzzle gives you 16 words. Sort them into 4 groups of 4, where each group shares a hidden link."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. There is a full answer key at the back."
+      ]
+    ],
+    "metaTitle": "Connections Puzzle Game Book | The Puzzle Monsters",
+    "metaDescription": "A Different Kind of Puzzle: The Brain-Teasing Bonanza! Find the hidden connection. Group the words. Feel very smug about it.",
+    "coverW": 464,
+    "coverH": 600
+  },
+  {
+    "slug": "connections-volume-2",
+    "asin": "B0D7WGWVT1",
+    "title": "Connections Volume 2",
+    "collection": "Connections",
+    "type": "connections",
+    "blurb": "Large print — 4 groups of 4",
+    "subtitle": "Large Print: 4 Groups of 4 Words with a Common Link",
+    "intro": [
+      "Find the hidden connection. Group the words. Feel very smug about it.",
+      "Each puzzle gives you 16 words in big, easy-on-the-eyes print – your job is to sort them into 4 secret groups of 4, all sharing a common link. All the fun of the original Connections Puzzle Game Book, sized up for anyone who wants clear, comfortable print without losing any of the challenge."
+    ],
+    "highlights": [
+      "Dozens of Connections-style puzzles, 4 groups of 4 words per puzzle",
+      "Large, easy-to-read print throughout",
+      "Full answer key at the back"
+    ],
+    "closing": "Makers Warning: side effects may include intense brain tickling, chronic pondering, and excessive smugness upon completion. Volume 2 (Large Print) of the Connections Puzzle Game collection – look for Volumes 1, 3 and 4 for more of the same devious fun.",
+    "suits": "A perfect gift for a parent, grandparent, or anyone who loves a sharp brain workout without the squint.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 2,
+    "faqs": [
+      [
+        "How does a Connections puzzle work?",
+        "Each puzzle gives you 16 words. Sort them into 4 groups of 4, where each group shares a hidden link."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. There is a full answer key at the back."
+      ]
+    ],
+    "metaTitle": "Large Print Connections Puzzle Book Vol 2 | The Puzzle Monsters",
+    "metaDescription": "A Different Kind of Puzzle: The Brain-Teasing Bonanza! Now in Large Print. Find the hidden connection. Group the words. Feel very smug about it.",
+    "coverW": 464,
+    "coverH": 600
+  },
+  {
+    "slug": "connections-volume-3",
+    "asin": "B0G1HGQ6S2",
+    "title": "Connections Volume 3",
+    "collection": "Connections",
+    "type": "connections",
+    "blurb": "4 groups of 4, one common link",
+    "subtitle": "4 Groups of 4 Words with a Common Link",
+    "intro": [
+      "Find the hidden connection. Group the words. Feel very smug about it.",
+      "Each puzzle gives you 16 words – your job is to sort them into 4 secret groups of 4, all sharing a common link. Simple to explain, sneaky to solve, and exactly the kind of puzzle that makes a coffee break disappear."
+    ],
+    "highlights": [
+      "Dozens of fresh Connections-style puzzles, 4 groups of 4 words per puzzle",
+      "Full answer key at the back"
+    ],
+    "closing": "Makers Warning: side effects may include intense brain tickling, chronic pondering, and excessive smugness upon completion. Volume 3 of the Connections Puzzle Game collection – look for Volumes 1, 2 (Large Print) and 4 for more of the same devious fun.",
+    "suits": "A perfect gift for a puzzle lover, a family game night, or your own quiet ten minutes.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 13,
+    "faqs": [
+      [
+        "How does a Connections puzzle work?",
+        "Each puzzle gives you 16 words. Sort them into 4 groups of 4, where each group shares a hidden link."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. There is a full answer key at the back."
+      ]
+    ],
+    "metaTitle": "Connections Puzzle Book Vol 3 | The Puzzle Monsters",
+    "metaDescription": "A Different Kind of Puzzle: The Brain-Teasing Bonanza! Find the hidden connection. Group the words. Feel very smug about it.",
+    "coverW": 464,
+    "coverH": 600
+  },
+  {
+    "slug": "connections-volume-4",
+    "asin": "B0GDY63GMK",
+    "title": "Connections Volume 4",
+    "collection": "Connections",
+    "type": "connections",
+    "blurb": "4 groups of 4, one common link",
+    "subtitle": "4 Groups of 4 Words with a Common Link",
+    "intro": [
+      "Find the hidden connection. Group the words. Feel very smug about it.",
+      "Each puzzle gives you 16 words – your job is to sort them into 4 secret groups of 4, all sharing a common link. Simple to explain, sneaky to solve, and the kind of puzzle that turns \"just one more\" into an hour has gone by."
+    ],
+    "highlights": [
+      "Dozens of fresh Connections-style puzzles, 4 groups of 4 words per puzzle",
+      "Full answer key at the back"
+    ],
+    "closing": "Makers Warning: side effects may include intense brain tickling, chronic pondering, and excessive smugness upon completion. Volume 4 of the Connections Puzzle Game collection – look for Volumes 1, 2 (Large Print) and 3 for more of the same devious fun.",
+    "suits": "A perfect gift for a puzzle lover, a family game night, or your own quiet ten minutes.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 14,
+    "faqs": [
+      [
+        "How does a Connections puzzle work?",
+        "Each puzzle gives you 16 words. Sort them into 4 groups of 4, where each group shares a hidden link."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. There is a full answer key at the back."
+      ]
+    ],
+    "metaTitle": "Connections Puzzle Book Vol 4 | The Puzzle Monsters",
+    "metaDescription": "A Different Kind of Puzzle: The Brain-Teasing Bonanza! Find the hidden connection. Group the words. Feel very smug about it.",
+    "coverW": 464,
+    "coverH": 600
+  },
+  {
+    "slug": "large-print-sudoku",
+    "asin": "B0HM7TRGX7",
+    "title": "Large Print Sudoku",
+    "collection": "Sudoku",
+    "type": "sudoku",
+    "blurb": "Large print — 99 bold, easy puzzles, one per page",
+    "subtitle": "99 Bold and Easy Puzzles for Adults and Seniors",
+    "intro": [
+      "99 easy sudoku puzzles printed one per page in extra-large, bold type. No squinting, no cramped grids, no frustration – just pure, relaxing logic from the first square to the last."
+    ],
+    "highlights": [
+      "99 easy puzzles – gentle enough for beginners, satisfying for everyone",
+      "One big 6.5 inch grid per page with bold, senior-friendly numbers",
+      "Every puzzle has exactly one solution, reachable by logic alone – no guessing",
+      "Clear how-to-play guide for newcomers",
+      "Full solutions at the back, four per page"
+    ],
+    "closing": "Grab a pencil, settle into a comfortable chair, and enjoy sudoku the way it should be – big, bold, and easy.",
+    "suits": "The perfect gift for parents, grandparents, and anyone who loves puzzles but hates small print. Great for quiet mornings, waiting rooms, travel, and winding down before bed.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 28,
+    "faqs": [
+      [
+        "How do you play sudoku?",
+        "Fill the grid so that every row, every column and every 3 x 3 box contains the numbers 1 to 9 exactly once."
+      ],
+      [
+        "Do I ever have to guess?",
+        "No. Every puzzle has exactly one solution, and you can reach it by logic alone."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. Full solutions are at the back."
+      ]
+    ],
+    "metaTitle": "Large Print Sudoku Book | The Puzzle Monsters",
+    "metaDescription": "Big Grids. Bold Numbers. Zero Eye Strain. 99 easy sudoku puzzles printed one per page in extra-large, bold type. No squinting, no cramped grids, no…",
+    "coverW": 464,
+    "coverH": 600,
+    "sample": {
+      "img": "large-print-sudoku-sample.webp",
+      "alt": "Sample page from Large Print Sudoku",
+      "caption": "Puzzle 1 from Large Print Sudoku, exactly as printed in the book."
+    }
+  },
+  {
+    "slug": "codewords-puzzle-book",
+    "asin": "B0HGF22DL5",
+    "title": "Codewords Puzzle Book",
+    "collection": "Codewords",
+    "type": "codewords",
+    "blurb": "99 codeword puzzles with starter clues",
+    "subtitle": "99 Codeword Puzzles with Starter Clues",
+    "intro": [
+      "Crack the code and reveal the hidden words in ninety-nine handcrafted codeword grids – every letter in the grid is swapped for a number, and a handful of starter letters get you going on each puzzle."
+    ],
+    "highlights": [
+      "99 codeword puzzles across three difficulty levels – 33 easy, 33 medium, 33 hard",
+      "Starter letters graded by difficulty – more help early on, fewer clues as you progress",
+      "A full alphabet key strip on every puzzle page",
+      "Bold, clean grids that are easy on the eyes",
+      "Full solutions at the back"
+    ],
+    "closing": "Grab a pencil and start cracking.",
+    "suits": "The perfect brain workout for puzzle lovers, code breakers and anyone who enjoys a satisfying decode.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 71,
+    "faqs": [
+      [
+        "What is a codeword puzzle?",
+        "It looks like a crossword with no clues. Every letter has been swapped for a number from 1 to 26. A few starter letters are given, and you work out the rest from the words they make."
+      ],
+      [
+        "How hard are the puzzles?",
+        "There are three levels: 33 easy, 33 medium, 33 hard."
+      ],
+      [
+        "Are the answers included?",
+        "Yes. Full solutions are at the back."
+      ]
+    ],
+    "metaTitle": "Codewords Puzzle Book | The Puzzle Monsters",
+    "metaDescription": "99 Codeword Puzzles. Every Number Hides a Letter. Crack the code and reveal the hidden words in ninety-nine handcrafted codeword grids – every letter in…",
+    "coverW": 464,
+    "coverH": 600,
+    "sample": {
+      "img": "codewords-puzzle-book-sample.webp",
+      "alt": "Sample page from Codewords Puzzle Book",
+      "caption": "Puzzle 1 from Codewords Puzzle Book, exactly as printed in the book."
+    }
   },
   {
     "slug": "movie-quote-cryptograms",
     "asin": "B0HS7T9D2Q",
     "title": "Movie Quote Cryptograms",
-    "subtitle": "Large Print: 99 Iconic Film Lines to Decode, Vol 1",
     "collection": "Cryptograms",
-    "metaTitle": "Large Print Movie Quote Cryptograms Book | The Puzzle Monsters",
-    "metaDescription": "99 large print cryptograms hiding famous Hollywood movie quotes. Six cipher styles, a step-by-step cipher guide, and an answer key with the actor, film and year.",
+    "type": "cryptograms",
+    "blurb": "Large print — 99 iconic film lines to decode, 6 cipher styles",
+    "subtitle": "Large Print: 99 Iconic Film Lines to Decode, Vol 1",
     "intro": [
       "Ninety-nine of the most famous lines in Hollywood history, hidden in code. Break the cipher, reveal the quote, then check the answer key to find out who said it, in which film and in what year.",
       "The codes start friendly and get tougher as you go. A cipher guide at the front walks you through each code with a worked example, so you never have to crack anything cold."
     ],
-    "details": [
-      ["Puzzles", "99 movie quote cryptograms, one per page"],
-      ["Ciphers", "Number Code, Caesar Shift, Polybius Square, Atbash, Substitution, Vigenère"],
-      ["Difficulty", "Easy, medium and hard sections"],
-      ["Print size", "Large print: coded text in 22pt letters, with room to write"],
-      ["Help", "Cipher guide with a worked example for each code, plus a letter tracker on substitution-style puzzles"],
-      ["Answers", "Quote, actor, character, film and year"],
-      ["Format", "Paperback, 8.5 x 11 in"]
+    "highlights": [
+      "99 movie quote cryptograms, one puzzle per page",
+      "Bold large print: coded text in big 22pt letters, with room to write under every one",
+      "Six cipher styles: Number Code, Caesar Shift, Polybius Square, Atbash, Substitution and Vigenere",
+      "Easy, Medium and Hard sections",
+      "Apostrophes and punctuation printed for you, plus a letter tracker on every substitution-style puzzle",
+      "A step-by-step cipher guide with a worked example for each code",
+      "Full answer key with the quote, the actor and character, the film and the year",
+      "Large 8.5 x 11 inch pages"
     ],
+    "closing": "Grab a pencil, roll the credits and start decoding.",
     "suits": "Movie lovers, puzzle fans and anyone who wants a challenge that's easy on the eyes. If you've never done a cryptogram, the cipher guide gets you started.",
+    "format": "Paperback, 8.5 x 11 in",
+    "bookNumber": 68,
+    "faqs": [
+      [
+        "What is a cryptogram?",
+        "A cryptogram is a short piece of text written in code. You work out the code to reveal the original message, which in this book is a famous movie quote."
+      ],
+      [
+        "I've never done one. Is it too hard?",
+        "No. The book starts with easy codes, and the cipher guide at the front shows a worked example for each one."
+      ],
+      [
+        "Is this book large print?",
+        "Yes. The coded text is printed in 22pt letters (18pt for number codes), with space to write your answer under every line."
+      ],
+      [
+        "What's in the answer key?",
+        "The full quote, plus the actor, the character, the film and the year."
+      ]
+    ],
+    "metaTitle": "Large Print Movie Quote Cryptograms Book | The Puzzle Monsters",
+    "metaDescription": "99 large print cryptograms hiding famous Hollywood movie quotes. Six cipher styles, a step-by-step cipher guide, and an answer key with the actor, film and year.",
+    "coverW": 612,
+    "coverH": 792,
+    "details": [
+      [
+        "Puzzles",
+        "99 movie quote cryptograms, one per page"
+      ],
+      [
+        "Ciphers",
+        "Number Code, Caesar Shift, Polybius Square, Atbash, Substitution, Vigenère"
+      ],
+      [
+        "Difficulty",
+        "Easy, medium and hard sections"
+      ],
+      [
+        "Print size",
+        "Large print: coded text in 22pt letters, with room to write"
+      ],
+      [
+        "Help",
+        "Cipher guide with a worked example for each code, plus a letter tracker on substitution-style puzzles"
+      ],
+      [
+        "Answers",
+        "Quote, actor, character, film and year"
+      ],
+      [
+        "Format",
+        "Paperback, 8.5 x 11 in"
+      ]
+    ],
     "sample": {
       "img": "movie-quote-cryptograms-sample.webp",
       "alt": "Sample page: puzzle 42, Atbash Mirror, a medium large print cryptogram with a letter tracker at the bottom",
       "caption": "Puzzle 42, Atbash Mirror (Medium). Swap each letter for its mirror (A for Z, B for Y) to reveal a famous film line. The letter tracker at the bottom helps you keep count."
     },
+    "curated": true
+  },
+  {
+    "slug": "dublin-city-locations",
+    "asin": "B0H9Z269FB",
+    "title": "Dublin: City Locations",
+    "collection": "City Guides",
+    "type": "cityguide",
+    "blurb": "A pocket guide to the real Dublin places behind the puzzles",
+    "subtitle": "99 Places That Made Dublin",
+    "intro": [
+      "Ninety-nine places that carry the city's story – Trinity College to the Forty Foot, Kilmainham to the Cobblestone – one page each: what it is, why it matters, and the detail worth remembering when you stand in front of it."
+    ],
+    "highlights": [
+      "99 places, one page each – dip in anywhere",
+      "Cathedrals, castles, markets, pubs, parks and coast",
+      "The story and the detail worth retelling for each",
+      "True pocket size – 4 x 6 inches, fits a coat pocket"
+    ],
+    "closing": "Part of the 4-volume Dublin Pocket Guides series. Part of the Puzzle Cities collection – look for Puzzle Dublin, 99 word search puzzles with a true Dublin fact on every page.",
+    "suits": "The perfect little gift for Dubliners, visitors, and the diaspora thinking of home.",
+    "format": "Pocket paperback, 4 x 6 in",
+    "bookNumber": 45,
     "faqs": [
-      ["What is a cryptogram?", "A cryptogram is a short piece of text written in code. You work out the code to reveal the original message, which in this book is a famous movie quote."],
-      ["I've never done one. Is it too hard?", "No. The book starts with easy codes, and the cipher guide at the front shows a worked example for each one."],
-      ["Is this book large print?", "Yes. The coded text is printed in 22pt letters (18pt for number codes), with space to write your answer under every line."],
-      ["What's in the answer key?", "The full quote, plus the actor, the character, the film and the year."]
-    ]
+      [
+        "How big is it?",
+        "It is a true pocket book, 4 x 6 inches, so it fits in a coat pocket."
+      ],
+      [
+        "Is there a puzzle book to go with it?",
+        "Yes. Puzzle Dublin has 99 word searches with a true Dublin fact on every page."
+      ]
+    ],
+    "metaTitle": "Dublin City Locations: Pocket Guide Book | The Puzzle Monsters",
+    "metaDescription": "A pocket guide to 99 Dublin places, from Trinity College to the Forty Foot: what each one is, why it matters, and the detail worth remembering. 4 x 6 in.",
+    "coverW": 400,
+    "coverH": 600
+  },
+  {
+    "slug": "a-christmas-carol-annotated",
+    "asin": "B0DP1P2J9C",
+    "title": "A Christmas Carol",
+    "collection": "Classic Reads",
+    "type": "classic",
+    "blurb": "Annotated classic — every reference explained, nothing lost",
+    "subtitle": "Annotated, with Original Illustrations from the 1843 Edition",
+    "intro": [
+      "Ebenezer Scrooge hates Christmas, until three ghosts take him through his past, present and future. Dickens first published this short ghost story in 1843, and it has been read every December since.",
+      "This annotated edition adds notes that explain the Victorian world behind the story, so the jokes, the money and the customs all make sense."
+    ],
+    "highlights": [
+      "Literary comments",
+      "Explanations of the historical context",
+      "Study question guide",
+      "Original illustrations from the 1843 edition"
+    ],
+    "format": "Paperback",
+    "bookNumber": 7,
+    "faqs": [
+      [
+        "What does annotated mean?",
+        "The book includes extra notes alongside the story, such as explanations of the history and customs that a modern reader might not know."
+      ],
+      [
+        "Who wrote it?",
+        "Charles Dickens. The text is his complete original story."
+      ]
+    ],
+    "metaTitle": "A Christmas Carol (Annotated) | The Puzzle Monsters",
+    "metaDescription": "Ebenezer Scrooge hates Christmas, until three ghosts take him through his past, present and future. Dickens first published this short ghost story in…",
+    "coverW": 400,
+    "coverH": 600
+  },
+  {
+    "slug": "great-expectations-annotated",
+    "asin": "B0D5CMBCKL",
+    "title": "Great Expectations",
+    "collection": "Classic Reads",
+    "type": "classic",
+    "blurb": "Annotated classic — every reference explained, nothing lost",
+    "kindle": true,
+    "subtitle": "Annotated Edition",
+    "intro": [
+      "Pip, a young orphan, meets an escaped convict on the marshes and is invited to the strange Satis House of Miss Havisham. When a secret benefactor gives him the chance to become a gentleman, everything he thought he wanted begins to change.",
+      "Dickens first published Great Expectations in 1861. This is an annotated Kindle edition of the complete novel."
+    ],
+    "highlights": [
+      "The complete novel by Charles Dickens",
+      "Annotated edition",
+      "Kindle eBook"
+    ],
+    "format": "Kindle eBook",
+    "bookNumber": 16,
+    "faqs": [
+      [
+        "What does annotated mean?",
+        "The book includes extra notes alongside the story, such as explanations of the history and customs that a modern reader might not know."
+      ],
+      [
+        "Who wrote it?",
+        "Charles Dickens. The text is his complete original story."
+      ]
+    ],
+    "metaTitle": "Great Expectations (Annotated) | The Puzzle Monsters",
+    "metaDescription": "Pip, a young orphan, meets an escaped convict on the marshes and is invited to the strange Satis House of Miss Havisham. When a secret benefactor gives…",
+    "coverW": 376,
+    "coverH": 600
+  },
+  {
+    "slug": "the-chimes-annotated",
+    "asin": "B0DPSYJPB5",
+    "title": "The Chimes",
+    "collection": "Classic Reads",
+    "type": "classic",
+    "blurb": "Annotated classic — every reference explained, nothing lost",
+    "kindle": true,
+    "subtitle": "Annotated: A Goblin Story of Some Bells That Rang an Old Year Out and a New Year In",
+    "intro": [
+      "On New Year's Eve, Trotty Veck, a poor London messenger, is shown a vision by the goblins of the church bells. Dickens wrote The Chimes in 1844 as his second Christmas book, after A Christmas Carol.",
+      "This annotated edition helps you follow the story and the world it was written for."
+    ],
+    "highlights": [
+      "Introduction",
+      "Overview",
+      "Cast of characters",
+      "Study question guide"
+    ],
+    "format": "Kindle eBook",
+    "bookNumber": 17,
+    "faqs": [
+      [
+        "What does annotated mean?",
+        "The book includes extra notes alongside the story, such as explanations of the history and customs that a modern reader might not know."
+      ],
+      [
+        "Who wrote it?",
+        "Charles Dickens. The text is his complete original story."
+      ]
+    ],
+    "metaTitle": "The Chimes (Annotated) | The Puzzle Monsters",
+    "metaDescription": "On New Year's Eve, Trotty Veck, a poor London messenger, is shown a vision by the goblins of the church bells. Dickens wrote The Chimes in 1844 as his…",
+    "coverW": 376,
+    "coverH": 600
+  },
+  {
+    "slug": "the-cricket-on-the-hearth-annotated",
+    "asin": "B0DPVN9MPH",
+    "title": "The Cricket on the Hearth",
+    "collection": "Classic Reads",
+    "type": "classic",
+    "blurb": "Annotated classic — every reference explained, nothing lost",
+    "kindle": true,
+    "subtitle": "Annotated: A Fairy Tale of Home",
+    "intro": [
+      "John Peerybingle the carrier, his young wife Dot and the cricket that chirps on their hearth face a test of love and trust in this short Christmas book from 1845.",
+      "This annotated edition explains the history behind the story."
+    ],
+    "highlights": [
+      "Literary comments",
+      "Explanations of the historical context",
+      "Study question guide"
+    ],
+    "format": "Kindle eBook",
+    "bookNumber": 18,
+    "faqs": [
+      [
+        "What does annotated mean?",
+        "The book includes extra notes alongside the story, such as explanations of the history and customs that a modern reader might not know."
+      ],
+      [
+        "Who wrote it?",
+        "Charles Dickens. The text is his complete original story."
+      ]
+    ],
+    "metaTitle": "The Cricket on the Hearth (Annotated) | The Puzzle Monsters",
+    "metaDescription": "John Peerybingle the carrier, his young wife Dot and the cricket that chirps on their hearth face a test of love and trust in this short Christmas book…",
+    "coverW": 376,
+    "coverH": 600
+  },
+  {
+    "slug": "the-battle-of-life-annotated",
+    "asin": "B0DPXTZFHM",
+    "title": "The Battle of Life",
+    "collection": "Classic Reads",
+    "type": "classic",
+    "blurb": "Annotated classic — every reference explained, nothing lost",
+    "kindle": true,
+    "subtitle": "Annotated: A Love Story",
+    "intro": [
+      "In an English country village, two sisters, Grace and Marion, face a choice that tests the bond between them. The Battle of Life was the fourth of Dickens's Christmas books, published in 1846.",
+      "This annotated edition explains the history behind the story."
+    ],
+    "highlights": [
+      "Literary comments",
+      "Explanations of the historical context",
+      "Study question guide"
+    ],
+    "format": "Kindle eBook",
+    "bookNumber": 19,
+    "faqs": [
+      [
+        "What does annotated mean?",
+        "The book includes extra notes alongside the story, such as explanations of the history and customs that a modern reader might not know."
+      ],
+      [
+        "Who wrote it?",
+        "Charles Dickens. The text is his complete original story."
+      ]
+    ],
+    "metaTitle": "The Battle of Life (Annotated) | The Puzzle Monsters",
+    "metaDescription": "In an English country village, two sisters, Grace and Marion, face a choice that tests the bond between them. The Battle of Life was the fourth of…",
+    "coverW": 376,
+    "coverH": 600
+  },
+  {
+    "slug": "the-haunted-man-annotated",
+    "asin": "B0DQ4VKBBG",
+    "title": "The Haunted Man",
+    "collection": "Classic Reads",
+    "type": "classic",
+    "blurb": "Annotated classic — every reference explained, nothing lost",
+    "kindle": true,
+    "subtitle": "The Haunted Man and the Ghost's Bargain, Annotated",
+    "intro": [
+      "Redlaw, a chemistry professor haunted by painful memories, is offered a gift by a ghost: the power to forget. The bargain costs him more than he expected. This was the last of Dickens's five Christmas books, published in 1848.",
+      "An annotated Kindle edition of the complete novella."
+    ],
+    "highlights": [
+      "The complete novella by Charles Dickens",
+      "Annotated edition",
+      "Kindle eBook"
+    ],
+    "format": "Kindle eBook",
+    "bookNumber": 20,
+    "faqs": [
+      [
+        "What does annotated mean?",
+        "The book includes extra notes alongside the story, such as explanations of the history and customs that a modern reader might not know."
+      ],
+      [
+        "Who wrote it?",
+        "Charles Dickens. The text is his complete original story."
+      ]
+    ],
+    "metaTitle": "The Haunted Man (Annotated) | The Puzzle Monsters",
+    "metaDescription": "Redlaw, a chemistry professor haunted by painful memories, is offered a gift by a ghost: the power to forget. The bargain costs him more than he expected.…",
+    "coverW": 376,
+    "coverH": 600
   }
 ]
