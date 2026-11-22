@@ -61,7 +61,9 @@
       var a = links[i];
       var kindle = a.hasAttribute('data-kindle');
       var target = here;
-      if (!target || (kindle && !KINDLE_OK[target])) target = kindle ? DEFAULT_KINDLE : DEFAULT_PAPERBACK;
+      // data-skip="amazon.fr": book not sold in that store (Arsène Lupin is excluded from France).
+      var skip = (a.getAttribute('data-skip') || '').split(' ');
+      if (!target || (kindle && !KINDLE_OK[target]) || skip.indexOf(target) >= 0) target = kindle ? DEFAULT_KINDLE : DEFAULT_PAPERBACK;
       a.href = a.href.replace(/www\.amazon\.[a-z.]+\//, 'www.' + target + '/');
     }
   }

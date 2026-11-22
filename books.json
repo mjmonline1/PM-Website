@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "christmas-word-search",
+    "asin": "B0HPW6XMLN",
+    "title": "Christmas Word Search",
+    "subtitle": "99 Festive Puzzles, Vol 1",
+    "collection": "Word Search",
+    "metaTitle": "Large Print Christmas Word Search Book | The Puzzle Monsters",
+    "metaDescription": "99 large print Christmas word searches with a festive fun fact on every page: Santa, carols, cocoa and traditions from around the world. Full solutions included.",
+    "intro": [
+      "Ninety-nine festive word searches, from Santa's workshop and sleigh bells to Victorian Christmases and Hogmanay. Every puzzle has a Christmas fun fact printed under the grid, so you learn something on every single page.",
+      "The grids are bold and large print, and the puzzles get harder as you go: 33 easy, 33 medium and 33 hard. Full solutions are at the back."
+    ],
+    "details": [
+      ["Puzzles", "99 word searches, one per page"],
+      ["Difficulty", "33 easy, 33 medium, 33 hard"],
+      ["Print size", "Large print, bold grids"],
+      ["On every page", "A Christmas fun fact"],
+      ["Answers", "Full solutions at the back"],
+      ["Format", "Paperback, 8.5 x 11 in"]
+    ],
+    "suits": "Anyone who likes a relaxed puzzle with a cup of something warm. It makes an easy stocking stuffer for parents, grandparents and anyone else on your list who loves word searches.",
+    "sample": {
+      "img": "christmas-word-search-sample.webp",
+      "alt": "Sample page: puzzle 1, Santa's Workshop, an easy large print word search grid with a fun fact about Thomas Nast under the grid",
+      "caption": "Puzzle 1, Santa's Workshop (Easy). The fact under the grid: Santa's North Pole workshop was popularised in the 1860s by the American cartoonist Thomas Nast."
+    },
+    "faqs": [
+      ["Is this book large print?", "Yes. The grids use bold, large letters that are easy on the eyes."],
+      ["How hard are the puzzles?", "There are three levels: 33 easy, 33 medium and 33 hard, so you can warm up before the tricky ones."],
+      ["Are the answers included?", "Yes. Every puzzle has a full solution at the back of the book."],
+      ["Is it a good gift for seniors?", "Yes. It's large print, there's one puzzle per page, and there's a new Christmas fact to share every time you finish a grid."]
+    ]
+  },
+  {
+    "slug": "arsene-lupin-word-search",
+    "asin": "B0HSCDYNKJ",
+    "skipStores": ["amazon.fr"],
+    "title": "Arsène Lupin Word Search",
+    "subtitle": "99 Puzzles from the Original Stories",
+    "collection": "Word Search",
+    "metaTitle": "Arsène Lupin Word Search Book: 99 Puzzles | The Puzzle Monsters",
+    "metaDescription": "99 word searches built from Maurice Leblanc's original Arsène Lupin stories. Every word comes from the story, with a real line from it on every page.",
+    "intro": [
+      "Arsène Lupin, the gentleman-burglar, leaves his calling card before he steals. This book follows him through his classic adventures, from The Arrest of Arsène Lupin and The Black Pearl to The Hollow Needle, 813, The Crystal Stopper and The Teeth of the Tiger.",
+      "Each puzzle is named after a real story or chapter, and every word in it comes from that story's original English text: the characters, the places, the jewels and the hiding places. Under each grid is a line quoted from the story itself."
+    ],
+    "details": [
+      ["Puzzles", "99 word searches, one per page"],
+      ["Source", "14 classic Arsène Lupin books by Maurice Leblanc"],
+      ["Difficulty", "33 easy, 33 medium, 33 hard"],
+      ["Easy puzzles", "Extra-large 10 x 10 grids"],
+      ["On every page", "A real line from the story"],
+      ["Answers", "Full solutions at the back"],
+      ["Format", "Paperback, 8.5 x 11 in"]
+    ],
+    "suits": "Mystery readers, fans of classic detective fiction and anyone who loves a clever thief. You don't need to have read the books first: each puzzle stands on its own, and the quotes might send you off to read them.",
+    "sample": {
+      "img": "arsene-lupin-word-search-sample.webp",
+      "alt": "Sample page: puzzle 1, The Arrest of Arsène Lupin, an easy 10 by 10 word search with a quote from the story under the grid",
+      "caption": "Puzzle 1, The Arrest of Arsène Lupin (Easy). The words (Ganimard, Steamer, Wireless, Kodak and more) all come from the story, and the quoted line under the grid is taken from it word for word."
+    },
+    "faqs": [
+      ["Do I need to have read the Arsène Lupin stories?", "No. Each puzzle works on its own. The quote on each page gives you a taste of the story it comes from."],
+      ["Where do the words come from?", "Every word is taken from the original English text of the story the puzzle is named after."],
+      ["Is it large print?", "The pages are a large 8.5 x 11 inches, and the easy puzzles use extra-large 10 x 10 grids. The book isn't sold as a large print edition."],
+      ["Are the answers included?", "Yes. Full solutions are at the back."]
+    ]
+  },
+  {
+    "slug": "movie-quote-cryptograms",
+    "asin": "B0HS7T9D2Q",
+    "title": "Movie Quote Cryptograms",
+    "subtitle": "Large Print: 99 Iconic Film Lines to Decode, Vol 1",
+    "collection": "Cryptograms",
+    "metaTitle": "Large Print Movie Quote Cryptograms Book | The Puzzle Monsters",
+    "metaDescription": "99 large print cryptograms hiding famous Hollywood movie quotes. Six cipher styles, a step-by-step cipher guide, and an answer key with the actor, film and year.",
+    "intro": [
+      "Ninety-nine of the most famous lines in Hollywood history, hidden in code. Break the cipher, reveal the quote, then check the answer key to find out who said it, in which film and in what year.",
+      "The codes start friendly and get tougher as you go. A cipher guide at the front walks you through each code with a worked example, so you never have to crack anything cold."
+    ],
+    "details": [
+      ["Puzzles", "99 movie quote cryptograms, one per page"],
+      ["Ciphers", "Number Code, Caesar Shift, Polybius Square, Atbash, Substitution, Vigenère"],
+      ["Difficulty", "Easy, medium and hard sections"],
+      ["Print size", "Large print: coded text in 22pt letters, with room to write"],
+      ["Help", "Cipher guide with a worked example for each code, plus a letter tracker on substitution-style puzzles"],
+      ["Answers", "Quote, actor, character, film and year"],
+      ["Format", "Paperback, 8.5 x 11 in"]
+    ],
+    "suits": "Movie lovers, puzzle fans and anyone who wants a challenge that's easy on the eyes. If you've never done a cryptogram, the cipher guide gets you started.",
+    "sample": {
+      "img": "movie-quote-cryptograms-sample.webp",
+      "alt": "Sample page: puzzle 42, Atbash Mirror, a medium large print cryptogram with a letter tracker at the bottom",
+      "caption": "Puzzle 42, Atbash Mirror (Medium). Swap each letter for its mirror (A for Z, B for Y) to reveal a famous film line. The letter tracker at the bottom helps you keep count."
+    },
+    "faqs": [
+      ["What is a cryptogram?", "A cryptogram is a short piece of text written in code. You work out the code to reveal the original message, which in this book is a famous movie quote."],
+      ["I've never done one. Is it too hard?", "No. The book starts with easy codes, and the cipher guide at the front shows a worked example for each one."],
+      ["Is this book large print?", "Yes. The coded text is printed in 22pt letters (18pt for number codes), with space to write your answer under every line."],
+      ["What's in the answer key?", "The full quote, plus the actor, the character, the film and the year."]
+    ]
+  }
+]

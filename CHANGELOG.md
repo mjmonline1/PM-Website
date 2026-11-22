@@ -18,6 +18,11 @@ Basic mobile responsiveness added.
 
 Placeholder JavaScript file (script.js) included for future features.
 
+## [Book pages pilot] - 2026-11-22
+- books.json + build-books.cjs (`node build-books.cjs`): one page per book at /books/<slug>/ with own cover, sample page, details, FAQs, Book + BreadcrumbList JSON-LD; rewrites sitemap.xml.
+- Pilot: Christmas Word Search, Arsène Lupin Word Search, Movie Quote Cryptograms. Homepage list + ItemList now point at these pages.
+- script.js: data-skip="amazon.fr" keeps visitors off stores that don't sell a book (Lupin is not sold in France).
+
 ## [SEO pass] - 2026-11-21
 - Amazon links: rel="sponsored noopener" (Google affiliate-link rule); Associates disclosure in footer (index + go).
 - Keyword title/description; Organization + WebSite JSON-LD; "Who makes these books?" section.
