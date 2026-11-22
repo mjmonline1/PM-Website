@@ -81,6 +81,7 @@
       btn.rel = 'sponsored noopener';
       btn.textContent = 'Buy on Amazon';
       if (book.kindle) btn.setAttribute('data-kindle', '');
+      if (book.skip) btn.setAttribute('data-skip', book.skip);
       document.title = book.title + ' — The Puzzle Monsters';
     })();
   </script>
