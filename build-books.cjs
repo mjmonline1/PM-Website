@@ -200,7 +200,8 @@ if (home === before) console.log('WARN index.html: book list / ItemList markers 
 fs.writeFileSync(homeFile, home);
 
 const today = new Date().toISOString().slice(0, 10);
-const urls = ['/', '/books/', ...books.map(b => `/books/${b.slug}/`)];
+const PRINTABLES = ['/printables/christmas-word-search/']; // hand-written pages under /printables/
+const urls = ['/', '/books/', ...books.map(b => `/books/${b.slug}/`), ...PRINTABLES];
 fs.writeFileSync(path.join(root, 'sitemap.xml'),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
   urls.map(u => `  <url><loc>${SITE}${u}</loc><lastmod>${today}</lastmod></url>`).join('\n') +
