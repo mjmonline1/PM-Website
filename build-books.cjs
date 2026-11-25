@@ -312,7 +312,16 @@ fs.writeFileSync(path.join(root, 'sitemap.xml'),
   const names = onSite.map(printableLink), joined = names.length > 1 ? names.slice(0, -1).join(', ') + ' and ' + names[names.length - 1] : names[0];
   const h = fs.readFileSync(homeFile, 'utf8'), re = /(<!-- PRINTABLES -->)[\s\S]*?(<!-- \/PRINTABLES -->)/;
   if (!re.test(h)) throw new Error('index.html: <!-- PRINTABLES --> markers missing');
-  fs.writeFileSync(homeFile, h.replace(re, names.length ? `$1<p>Free word search printable${names.length > 1 ? 's' : ''}, no sign-up: ${joined}.</p>$2` : '$1$2'));
+  let out = h.replace(re, names.length ? `$1<p class="free-line">Or grab a free word search printable now, no sign-up: ${joined}.</p>$2` : '$1$2');
+  // Homepage "Printable puzzle packs" section, between <!-- PACKS --> markers: one card per live pack, Etsy button + free sample.
+  const pre = /(<!-- PACKS -->)[\s\S]*?(<!-- \/PACKS -->)/;
+  if (!pre.test(out)) throw new Error('index.html: <!-- PACKS --> markers missing');
+  const cards = onSite.map(p => `
+      <h3 class="collection">${esc(p.pack)}</h3>
+      <ul class="printable-list">${p.bullets.map(b => `<li>${esc(b)}</li>`).join('')}</ul>
+      <p><a class="btn-primary" href="${esc(p.etsy)}" rel="noopener">Get it on Etsy</a> or <a href="/printables/${p.slug}/">try the free ${esc(p.holiday)} word search</a> first.</p>`).join('\n');
+  out = out.replace(pre, onSite.length ? `$1\n    <section class="content-box" id="packs">\n      <h2>Printable puzzle packs</h2>${cards}\n    </section>\n    $2` : '$1$2');
+  fs.writeFileSync(homeFile, out);
 }
 
 // feed.xml: RSS for Pinterest auto-pin (board Puzzle Books). Live printables not pinned by hand; live date = pubDate.
