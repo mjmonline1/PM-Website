@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "christmas-word-search", "holiday": "Christmas", "sample": "Santa's Workshop", "level": "easy",
+    "desc": "Free printable Christmas word search with answer key. Santa's Workshop theme, easy level, fun fact included. US Letter and A4 PDF, print at home.",
+    "pack": "Christmas Party Puzzle Pack", "packImg": "christmas-party-pack.webp", "etsy": "https://www.etsy.com/listing/4623326686", "live": "2026-11-24", "pinned": true,
+    "bullets": ["15 Christmas word searches: easy, medium and hard", "A fun fact on every puzzle page", "A bonus 20-word scramble", "A full answer key, four solutions to a page", "US Letter and A4 PDFs, instant download"]
+  },
+  {
+    "slug": "new-years-eve-word-search", "holiday": "New Year's Eve", "sample": "Countdown to Midnight", "level": "easy",
+    "desc": "Free printable New Year's Eve word search with answer key. Countdown to Midnight theme, easy level, fun fact included. US Letter and A4 PDF.",
+    "pack": "New Year's Eve Party Puzzle Pack", "packImg": "new-years-eve-pack.webp", "etsy": "/nye-pack",
+    "bullets": ["15 New Year's Eve word searches: easy, medium and hard", "A fun fact on every puzzle page", "A bonus 20-word scramble", "A full answer key, four solutions to a page", "US Letter and A4 PDFs, instant download"]
+  },
+  {
+    "slug": "valentines-day-word-search", "holiday": "Valentine's Day", "sample": "Valentine Cards", "level": "easy",
+    "desc": "Free printable Valentine's Day word search with answer key. Easy level, great for classroom parties, fun fact included. US Letter and A4 PDF.",
+    "pack": "Valentine's Day Puzzle Pack", "packImg": "valentines-day-pack.webp", "etsy": "/valentines-pack",
+    "bullets": ["15 Valentine's Day word searches: easy, medium and hard", "A fun fact on every puzzle page", "A bonus 20-word scramble", "A full answer key, four solutions to a page", "US Letter and A4 PDFs, instant download"]
+  },
+  {
+    "slug": "winter-word-search", "holiday": "Winter", "sample": "Snow Day", "level": "easy",
+    "desc": "Free printable winter word search with answer key. Snow Day theme, easy level for kids, fun fact included. US Letter and A4 PDF, print at home.",
+    "pack": "Winter Fun Puzzle Pack", "packImg": "winter-fun-pack.webp", "etsy": "/winter-pack",
+    "bullets": ["15 winter and snow word searches: easy, medium and hard", "A fun fact on every puzzle page", "A bonus 20-word scramble", "A full answer key, four solutions to a page", "US Letter and A4 PDFs, instant download"]
+  },
+  {
+    "slug": "st-patricks-day-word-search", "holiday": "St. Patrick's Day", "sample": "Luck of the Irish", "level": "easy",
+    "desc": "Free printable St. Patrick's Day word search with answer key. Easy level for kids, fun fact included. US Letter and A4 PDF, print at home.",
+    "pack": "St. Patrick's Day Puzzle Pack", "packImg": "st-patricks-day-pack.webp", "etsy": "/st-patricks-pack",
+    "bullets": ["15 St. Patrick's Day word searches: easy, medium and hard", "A fun fact on every puzzle page", "A bonus 20-word scramble", "A full answer key, four solutions to a page", "US Letter and A4 PDFs, instant download"]
+  },
+  {
+    "slug": "easter-word-search", "holiday": "Easter", "sample": "Easter Egg Hunt", "level": "easy",
+    "desc": "Free printable Easter word search with answer key. Easter Egg Hunt theme, easy level for kids, fun fact included. US Letter and A4 PDF, print at home.",
+    "pack": "Easter Fun Puzzle Pack", "packImg": "easter-fun-pack.webp", "etsy": "/easter-pack",
+    "bullets": ["15 Easter and spring word searches: easy, medium and hard", "A fun fact on every puzzle page", "A bonus 20-word scramble", "A full answer key, four solutions to a page", "US Letter and A4 PDFs, instant download"]
+  }
+]
